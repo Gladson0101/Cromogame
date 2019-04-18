@@ -9,9 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CitogeneticaActivity"></activity>
-        <activity android:name=".DivCelActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".activity.EstudoCitogeneticaActivity"
+            android:label="@string/title_activity_estudo_citogenetica"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.EstudoDivCelActivity"
+            android:label="@string/title_activity_estudo_div_cel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.EscolherJogoCitogeneticaActivity" />
+        <activity android:name=".activity.CitogeneticaActivity" />
+        <activity android:name=".activity.DivCelActivity" />
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
