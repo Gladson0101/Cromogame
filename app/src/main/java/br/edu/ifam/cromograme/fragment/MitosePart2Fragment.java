@@ -9,14 +9,13 @@ import android.view.ViewGroup;
 
 import br.edu.ifam.cromograme.R;
 
-
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DivCelPart1Fragment extends Fragment {
+public class MitosePart2Fragment extends Fragment {
 
 
-    public DivCelPart1Fragment() {
+    public MitosePart2Fragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +24,7 @@ public class DivCelPart1Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_div_cel_part1, container, false);
+        return inflater.inflate(R.layout.fragment_mitose_part2, container, false);
     }
 
 }
