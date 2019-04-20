@@ -37,47 +37,47 @@
 
     <string name="profase_etapas">
         <ol>
-            <li>O DNA desespiralizado fica disposto na célula de maneira desorganizada.</li>
-            <li>Início da espiralização do DNA para formar os cromossomos.</li>
-            <li>Duplicação dos centríolos (formação do 2º par).</li>
-            <li>Migração dos centríolos para os pólos opostos da célula.</li>
-            <li>Rompimento e degeneração da carioteca.</li>
+            <li>O DNA desespiralizado fica disposto na célula de maneira desorganizada.</li>\n
+            <li>Início da espiralização do DNA para formar os cromossomos.</li>\n
+            <li>Duplicação dos centríolos (formação do 2º par).</li>\n
+            <li>Migração dos centríolos para os pólos opostos da célula.</li>\n
+            <li>Rompimento e degeneração da carioteca.</li>\n
         </ol>
     </string>
     
     <string name="metafase_etapas">
         <ol>
-            <li>Grau máximo de espiralização dos cromossomos (visíveis ao M.O.)</li>
-            <li>Cromossomos duplos alinhados lado a lado no equador da célula.</li>
-            <li>Centríolos dispostos nos pólos opostos da célula.</li>
-            <li>No final da metáfase ocorre a divisão dos centrômeros.</li>
+            <li>Grau máximo de espiralização dos cromossomos (visíveis ao M.O.)</li>\n
+            <li>Cromossomos duplos alinhados lado a lado no equador da célula.</li>\n
+            <li>Centríolos dispostos nos pólos opostos da célula.</li>\n
+            <li>No final da metáfase ocorre a divisão dos centrômeros.</li>\n
         </ol>
     </string>
 
     <string name="anafase_etapas">
         <ol>
-            <li>Encurtamento das fibras do fuso.</li>
-            <li>Cromossomos simples (cromátides irmãs) puxadas para os pólos da célula.</li>
-            <li>Início da desespiralização dos cromossomos.</li>
+            <li>Encurtamento das fibras do fuso.</li>\n
+            <li>Cromossomos simples (cromátides irmãs) puxadas para os pólos da célula.</li>\n
+            <li>Início da desespiralização dos cromossomos.</li>\n
         </ol>
     </string>
 
     <string name="telofase_etapas">
         <ol>
-            <li>Ocorre a citocinese (divisão do citoplasma)</li>
-            <li>Formação de duas células filhas contendo o mesmo número de cromossomos da célula mãe, porém simples.</li>
-            <li>Formação de duas novas cariotecas e dois novos nucléolos.</li>
-            <li>Cromossomos se desespiralizam e as fibras do fuso desaparecem.</li>
+            <li>Ocorre a citocinese (divisão do citoplasma)</li>\n
+            <li>Formação de duas células filhas contendo o mesmo número de cromossomos da célula mãe, porém simples.</li>\n
+            <li>Formação de duas novas cariotecas e dois novos nucléolos.</li>\n
+            <li>Cromossomos se desespiralizam e as fibras do fuso desaparecem.</li>\n
         </ol>
     </string>
 
     <string name="meiose_finalidade">
         <ol>
-            <li>Crescimento e regeneração de tecidos</li>
-            <li>Cicatrização</li>
-            <li>Formação de gametas em vegetais</li>
-            <li>Formação de gametas em animais por partenogênese</li>
-            <li>Divisões do zigoto durante o desenvolvimento embrionário</li>
+            <li>Crescimento e regeneração de tecidos</li>\n
+            <li>Cicatrização</li>\n
+            <li>Formação de gametas em vegetais</li>\n
+            <li>Formação de gametas em animais por partenogênese</li>\n
+            <li>Divisões do zigoto durante o desenvolvimento embrionário</li>\n
         </ol>
     </string>
 
