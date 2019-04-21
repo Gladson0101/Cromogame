@@ -11,5 +11,14 @@ public class EstudoCitogeneticaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_estudo_citogenetica);
+
+        getSupportActionBar().setTitle("Citogenética");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        this.finish();
+        return super.onSupportNavigateUp();
     }
 }

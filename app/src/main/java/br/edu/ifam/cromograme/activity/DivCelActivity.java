@@ -18,6 +18,9 @@ public class DivCelActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_div_cel);
 
+        getSupportActionBar().setTitle("Divisão Celular");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         buttonEstudar = findViewById(R.id.buttonEstudarDivCel);
         buttonEstudar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,5 +36,11 @@ public class DivCelActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        this.finish();
+        return super.onSupportNavigateUp();
     }
 }
