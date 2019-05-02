@@ -18,7 +18,6 @@ import br.edu.ifam.cromograme.fragment.MitosePart2Fragment;
 import br.edu.ifam.cromograme.fragment.MitosePart3Fragment;
 import br.edu.ifam.cromograme.fragment.MitosePart4Fragment;
 import br.edu.ifam.cromograme.fragment.MitosePart5Fragment;
-import br.edu.ifam.cromograme.fragment.MitosePart6Fragment;
 
 public class EstudoMitoseActivity extends AppCompatActivity {
 
@@ -45,7 +44,6 @@ public class EstudoMitoseActivity extends AppCompatActivity {
         list.add(new MitosePart3Fragment());
         list.add(new MitosePart4Fragment());
         list.add(new MitosePart5Fragment());
-        list.add(new MitosePart6Fragment());
 
         // Inicializa o adapter.
         pagerAdapter = new SliderPagerAdapter(getSupportFragmentManager(), list);

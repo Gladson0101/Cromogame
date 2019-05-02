@@ -25,50 +25,29 @@
 
     <!-- Conteúdo -->
     <string name="oque_eh_interfase">
-        Fase que precede qualquer divisão celular. Ocorre a duplicação do DNA e a formação de cromossomos duplos.
+        Fase que precede qualquer divisão celular.
     </string>
 
     <string name="interfase_fases">
-        Possui três subfaseses\n
         <b>G1</b>: pré-síntese (cromossomos simples)\n
         <b>B</b>: Síntese de DNA\n
         <b>G2</b>: Pós-síntese (cromossomos duplos)
     </string>
 
     <string name="profase_etapas">
-        <ol>
-            <li>O DNA desespiralizado fica disposto na célula de maneira desorganizada.</li>\n
-            <li>Início da espiralização do DNA para formar os cromossomos.</li>\n
-            <li>Duplicação dos centríolos (formação do 2º par).</li>\n
-            <li>Migração dos centríolos para os pólos opostos da célula.</li>\n
-            <li>Rompimento e degeneração da carioteca.</li>\n
-        </ol>
+        As cromátides se condensam, o fuso mitótico é formado e o nucléolo se desintegra.
     </string>
 
     <string name="metafase_etapas">
-        <ol>
-            <li>Grau máximo de espiralização dos cromossomos (visíveis ao M.O.)</li>\n
-            <li>Cromossomos duplos alinhados lado a lado no equador da célula.</li>\n
-            <li>Centríolos dispostos nos pólos opostos da célula.</li>\n
-            <li>No final da metáfase ocorre a divisão dos centrômeros.</li>\n
-        </ol>
+        Os cromossomos se colocam no plano equatorial da célula.
     </string>
 
     <string name="anafase_etapas">
-        <ol>
-            <li>Encurtamento das fibras do fuso.</li>\n
-            <li>Cromossomos simples (cromátides irmãs) puxadas para os pólos da célula.</li>\n
-            <li>Início da desespiralização dos cromossomos.</li>\n
-        </ol>
+        Os cromossomos-filhos migram para os pólos da célula.
     </string>
 
     <string name="telofase_etapas">
-        <ol>
-            <li>Ocorre a citocinese (divisão do citoplasma)</li>\n
-            <li>Formação de duas células filhas contendo o mesmo número de cromossomos da célula mãe, porém simples.</li>\n
-            <li>Formação de duas novas cariotecas e dois novos nucléolos.</li>\n
-            <li>Cromossomos se desespiralizam e as fibras do fuso desaparecem.</li>\n
-        </ol>
+        Formam-se os núcleos-filhos e a partição do citoplasma (citocinese).
     </string>
 
     <string name="meiose_finalidade">
