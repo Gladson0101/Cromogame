@@ -18,7 +18,6 @@ import br.edu.ifam.cromograme.fragment.CromossomoPart2Fragment;
 import br.edu.ifam.cromograme.fragment.CromossomoPart3Fragment;
 import br.edu.ifam.cromograme.fragment.CromossomoPart4Fragment;
 import br.edu.ifam.cromograme.fragment.CromossomoPart5Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart6Fragment;
 
 public class EstudoCromossomoActivity extends AppCompatActivity {
 
@@ -45,7 +44,6 @@ public class EstudoCromossomoActivity extends AppCompatActivity {
         list.add(new CromossomoPart3Fragment());
         list.add(new CromossomoPart4Fragment());
         list.add(new CromossomoPart5Fragment());
-        list.add(new CromossomoPart6Fragment());
 
         // Inicializa o adapter.
         pagerAdapter = new SliderPagerAdapter(getSupportFragmentManager(), list);
