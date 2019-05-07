@@ -66,12 +66,11 @@ public class JogoMeioseActivity extends AppCompatActivity {
         });
 
         /* Configurações dos botões */
-        buttonAnterior = findViewById(R.id.buttonEstudoCromossomoAnterior);
-        buttonAnterior.setOnClickListener(new View.OnClickListener() {
+        buttonProximo = findViewById(R.id.buttonEstudoCromossomoProximo);
+        buttonProximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (globalIndex > 0) viewPager.setCurrentItem(--globalIndex);
-
+                if (globalIndex < list.size()-1) viewPager.setCurrentItem(++globalIndex);
             }
         });
     }
