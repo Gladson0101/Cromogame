@@ -25,8 +25,6 @@ public class JogoMeioseActivity extends AppCompatActivity {
     private PagerAdapter pagerAdapter;
 
     private Button buttonProximo;
-    private Button buttonAnterior;
-
     private int globalIndex = 0;
 
     @Override
