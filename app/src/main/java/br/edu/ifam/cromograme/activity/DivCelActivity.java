@@ -33,7 +33,7 @@ public class DivCelActivity extends AppCompatActivity {
         buttonJogar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(getApplicationContext(), DivCelJogoActivity.class));
             }
         });
     }

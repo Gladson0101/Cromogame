@@ -64,7 +64,7 @@ public class JogoMeioseActivity extends AppCompatActivity {
         });
 
         /* Configurações dos botões */
-        buttonProximo = findViewById(R.id.buttonEstudoCromossomoProximo);
+        buttonProximo = findViewById(R.id.buttonJogoMeiose);
         buttonProximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
