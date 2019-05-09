@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +25,8 @@ public class JogoMeioseActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private PagerAdapter pagerAdapter;
 
+    private TextView textView;
+
     private Button buttonProximo;
     private int globalIndex = 0;
 
@@ -40,6 +43,8 @@ public class JogoMeioseActivity extends AppCompatActivity {
         list.add(new DivCelNivel9Fragment());
         list.add(new DivCelNivel10Fragment());
 
+        textView = findViewById(R.id.textViewQuestaoMeiose);
+
         // Inicializa o adapter.
         pagerAdapter = new SliderPagerAdapter(getSupportFragmentManager(), list);
 
@@ -50,6 +55,7 @@ public class JogoMeioseActivity extends AppCompatActivity {
             @Override
             public void onPageScrolled(int i, float v, int i1) {
                 globalIndex = i;
+                textView.setText("Questão: " + (globalIndex+1) + "/5");
             }
 
             @Override

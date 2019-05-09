@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +25,8 @@ public class JogoMitoseActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private PagerAdapter pagerAdapter;
 
+    private TextView textView;
+
     private Button buttonProximo;
 
     private int globalIndex = 0;
@@ -35,11 +38,20 @@ public class JogoMitoseActivity extends AppCompatActivity {
 
         // Inicializa os Fragments.
         final List<Fragment> list = new ArrayList<>();
-        list.add(new DivCelNivel1Fragment());
-        list.add(new DivCelNivel2Fragment());
-        list.add(new DivCelNivel3Fragment());
-        list.add(new DivCelNivel4Fragment());
-        list.add(new DivCelNivel5Fragment());
+
+        DivCelNivel1Fragment n1 = new DivCelNivel1Fragment();
+        DivCelNivel2Fragment n2 = new DivCelNivel2Fragment();
+        DivCelNivel3Fragment n3 = new DivCelNivel3Fragment();
+        DivCelNivel4Fragment n4 = new DivCelNivel4Fragment();
+        DivCelNivel5Fragment n5 = new DivCelNivel5Fragment();
+
+        list.add(n1);
+        list.add(n2);
+        list.add(n3);
+        list.add(n4);
+        list.add(n5);
+
+        textView = findViewById(R.id.textViewQuestaoMitose);
 
 
         // Inicializa o adapter.
@@ -52,6 +64,7 @@ public class JogoMitoseActivity extends AppCompatActivity {
             @Override
             public void onPageScrolled(int i, float v, int i1) {
                 globalIndex = i;
+                textView.setText("Questão: " + (globalIndex+1) + "/5");
             }
 
             @Override
