@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.JogoMeioseActivity"></activity>
+        <activity android:name=".activity.EstudarActivity"></activity>
+        <activity android:name=".activity.JogarActivity" />
+        <activity android:name=".activity.JogoMeioseActivity" />
         <activity android:name=".activity.JogoMitoseActivity" />
         <activity android:name=".activity.DivCelJogoActivity" />
         <activity android:name=".activity.EstudoCromossomoActivity" />
-        <activity android:name=".activity.EstudoMeioseActivity" />
-        <activity android:name=".activity.EstudoMitoseActivity" />
         <activity android:name=".activity.EstudoDivCelActivity" />
         <activity android:name=".activity.EstudoCitogeneticaActivity" />
         <activity android:name=".activity.EscolherJogoCitogeneticaActivity" />

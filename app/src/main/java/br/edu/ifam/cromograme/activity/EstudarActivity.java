@@ -7,10 +7,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-
 import br.edu.ifam.cromograme.R;
 
-public class MainActivity extends AppCompatActivity {
+public class EstudarActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,17 +17,15 @@ public class MainActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_estudar);
         getSupportActionBar().hide();
-
     }
 
-    public void jogar(View view) {
-        startActivity(new Intent(getApplicationContext(), JogarActivity.class));
+    public void estudarDivisaoCelular(View view) {
+        startActivity(new Intent(getApplicationContext(), EstudoDivCelActivity.class));
     }
 
-    public void estudar(View view) {
-        startActivity(new Intent(getApplicationContext(), EstudarActivity.class));
+    public void estudarCromossomos() {
+
     }
 }

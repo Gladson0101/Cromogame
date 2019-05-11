@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,88 +7,37 @@
     android:orientation="vertical"
     tools:context=".activity.EstudoDivCelActivity" >
 
-    <LinearLayout
-        android:id="@+id/layoutMitose"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginTop="5dp"
-        android:orientation="vertical">
+    <Button
+        android:id="@+id/buttonEstudoDivCelProximo"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/proximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <LinearLayout
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:onClick="estudarMitose"
-            android:orientation="horizontal"
-            android:padding="5dp">
+    <Button
+        android:id="@+id/buttonEstudoDivCelAnterior"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/anterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="48dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/arrow" />
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="10"
-                android:text="Mitose"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <View
-        android:id="@+id/divider1"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
-
-    <LinearLayout
-        android:id="@+id/layoutMeiose"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginTop="5dp"
-        android:orientation="vertical">
-
-        <LinearLayout
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:onClick="estudarMeiose"
-            android:orientation="horizontal"
-            android:padding="5dp">
-
-            <ImageView
-                android:id="@+id/imageView14"
-                android:layout_width="48dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/arrow" />
-
-            <TextView
-                android:id="@+id/imageView17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="10"
-                android:text="Meiose"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <View
-        android:id="@+id/divider2"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
-
-</LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerEstudoDivCel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEstudoDivCelProximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
