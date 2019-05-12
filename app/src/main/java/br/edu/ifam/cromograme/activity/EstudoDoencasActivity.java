@@ -13,13 +13,15 @@ import java.util.List;
 
 import br.edu.ifam.cromograme.R;
 import br.edu.ifam.cromograme.adapter.SliderPagerAdapter;
-import br.edu.ifam.cromograme.fragment.CromossomoPart1Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart2Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart3Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart4Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart5Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart1Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart2Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart3Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart4Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart5Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart6Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart7Fragment;
 
-public class EstudoCromossomoActivity extends AppCompatActivity {
+public class EstudoDoencasActivity extends AppCompatActivity {
 
     private ViewPager viewPager;
     private PagerAdapter pagerAdapter;
@@ -32,24 +34,26 @@ public class EstudoCromossomoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_estudo_cromossomo);
+        setContentView(R.layout.activity_estudo_doencas);
 
-        getSupportActionBar().setTitle("Cromossomos");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Alterações Cromossomicas");
 
         // Inicializa os Fragments.
         final List<Fragment> list = new ArrayList<>();
-        list.add(new CromossomoPart1Fragment());
-        list.add(new CromossomoPart2Fragment());
-        list.add(new CromossomoPart3Fragment());
-        list.add(new CromossomoPart4Fragment());
-        list.add(new CromossomoPart5Fragment());
+        list.add(new DoencasPart1Fragment());
+        list.add(new DoencasPart2Fragment());
+        list.add(new DoencasPart3Fragment());
+        list.add(new DoencasPart4Fragment());
+        list.add(new DoencasPart5Fragment());
+        list.add(new DoencasPart6Fragment());
+        list.add(new DoencasPart7Fragment());
 
         // Inicializa o adapter.
         pagerAdapter = new SliderPagerAdapter(getSupportFragmentManager(), list);
 
         // Configura o ViewPager.
-        viewPager = findViewById(R.id.viewPagerEstudoCromossomo);
+        viewPager = findViewById(R.id.viewPagerEstudoDoencas);
         viewPager.setAdapter(pagerAdapter);
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -62,11 +66,12 @@ public class EstudoCromossomoActivity extends AppCompatActivity {
                     buttonAnterior.setVisibility(View.VISIBLE);
                 }
 
-                if (globalIndex == list.size()-1) {
+                if (globalIndex == list.size() - 1) {
                     buttonProximo.setText("Sair");
                 } else {
                     buttonProximo.setText("Próximo");
                 }
+
             }
 
             @Override
@@ -80,24 +85,24 @@ public class EstudoCromossomoActivity extends AppCompatActivity {
             }
         });
 
-        /* Configurações dos botões */
-        buttonAnterior = findViewById(R.id.buttonEstudoCromossomoAnterior);
+        buttonAnterior = findViewById(R.id.buttonEstudoDoencasAnterior);
+        buttonAnterior.setVisibility(View.GONE);
         buttonAnterior.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (globalIndex > 0) viewPager.setCurrentItem(--globalIndex);
-
             }
         });
 
-        buttonProximo = findViewById(R.id.buttonEstudoCromossomoProximo);
+        buttonProximo = findViewById(R.id.buttonEstudoDoencasProximo);
         buttonProximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (globalIndex < list.size()-1) viewPager.setCurrentItem(++globalIndex);
-                if (globalIndex == list.size()-1) finish();
+                if (globalIndex < list.size() - 1) viewPager.setCurrentItem(++globalIndex);
+                if (globalIndex == list.size() - 1) finish();
             }
         });
+
     }
 
     @Override
