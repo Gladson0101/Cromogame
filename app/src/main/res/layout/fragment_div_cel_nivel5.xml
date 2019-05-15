@@ -22,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
+        android:id="@+id/rgDiv5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -34,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView44">
 
         <RadioButton
-            android:id="@+id/radioButton37"
+            android:id="@+id/rbDivCerto5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

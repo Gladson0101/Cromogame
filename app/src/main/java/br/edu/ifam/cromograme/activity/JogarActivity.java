@@ -22,7 +22,7 @@ public class JogarActivity extends AppCompatActivity {
     }
 
     public void jogoCromossomos(View view) {
-
+        startActivity(new Intent(getApplicationContext(), JogoCromossomoActivity.class));
     }
 
     public void jogoDivisaoCelular(View view) {

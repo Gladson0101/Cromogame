@@ -25,7 +25,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <RadioGroup
-            android:id="@+id/radioGroup"
+            android:id="@+id/rgDiv8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -41,7 +41,7 @@
                 android:drawingCacheQuality="high" />
 
             <RadioButton
-                android:id="@+id/radioButton22"
+                android:id="@+id/rbDivCerto8"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:layout_weight="1" />
@@ -68,7 +68,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="26dp"
             android:src="@drawable/jogo_meiose1_profase1"
-            app:layout_constraintStart_toEndOf="@+id/radioGroup"
+            app:layout_constraintStart_toEndOf="@+id/rgDiv8"
             app:layout_constraintTop_toBottomOf="@+id/textView40" />
 
         <ImageView
@@ -79,7 +79,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="20dp"
             android:src="@drawable/jogo_meiose1_metafase1"
-            app:layout_constraintStart_toEndOf="@+id/radioGroup"
+            app:layout_constraintStart_toEndOf="@+id/rgDiv8"
             app:layout_constraintTop_toBottomOf="@+id/imageView22" />
 
         <ImageView
@@ -93,7 +93,7 @@
             android:layout_marginRight="8dp"
             android:src="@drawable/jogo_meiose1_telofase1"
             app:layout_constraintEnd_toEndOf="@+id/imageView24"
-            app:layout_constraintStart_toEndOf="@+id/radioGroup"
+            app:layout_constraintStart_toEndOf="@+id/rgDiv8"
             app:layout_constraintTop_toBottomOf="@+id/imageView24" />
 
         <ImageView
@@ -104,7 +104,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="20dp"
             android:src="@drawable/jogo_meiose1_anafase1"
-            app:layout_constraintStart_toEndOf="@+id/radioGroup"
+            app:layout_constraintStart_toEndOf="@+id/rgDiv8"
             app:layout_constraintTop_toBottomOf="@+id/imageView26" />
 
     </android.support.constraint.ConstraintLayout>
