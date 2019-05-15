@@ -52,6 +52,7 @@
             android:id="@+id/imageViewErrado2"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:background="#FFFFFF"
             android:src="@drawable/errado2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageViewCerto"
