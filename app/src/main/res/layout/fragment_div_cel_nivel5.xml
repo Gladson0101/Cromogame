@@ -38,27 +38,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/telofase_etapas" />
+            android:text="@string/telofase_etapas"
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/radioButton38"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/profase_etapas" />
+            android:text="@string/profase_etapas"
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/radioButton39"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/anafase_etapas" />
+            android:text="@string/anafase_etapas"
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/radioButton40"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/metafase_etapas" />
+            android:text="@string/metafase_etapas"
+            android:textSize="18sp" />
     </RadioGroup>
 </android.support.constraint.ConstraintLayout>

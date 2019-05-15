@@ -38,27 +38,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Anáfase I" />
+            android:text="Anáfase I"
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/radioButton30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Anáfase II" />
+            android:text="Anáfase II"
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/radioButton31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Telofase I" />
+            android:text="Telofase I"
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/radioButton32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Telófase II" />
+            android:text="Telófase II"
+            android:textSize="18sp" />
     </RadioGroup>
 </android.support.constraint.ConstraintLayout>

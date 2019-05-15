@@ -37,7 +37,7 @@ public class JogoDivisaoCelularActivity extends AppCompatActivity {
         textView = findViewById(R.id.textViewQuestaoDivisaoCelular);
         textView.setText("Questao: " + index + "/10");
 
-        button = findViewById(R.id.buttonJogoDivisaoCelularProximo);
+        button = findViewById(R.id.buttonJogoDivisaoCelularConfirmar);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

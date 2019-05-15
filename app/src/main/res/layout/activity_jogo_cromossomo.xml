@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.JogoDivisaoCelularActivity">
+    tools:context=".activity.JogoCromossomoActivity">
 
     <Button
-        android:id="@+id/buttonJogoDivisaoCelularConfirmar"
+        android:id="@+id/buttonJogoCromossomoConfirmar"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,12 +19,11 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <FrameLayout
-        android:id="@+id/frameLayoutJogoDivisaoCelular"
+        android:id="@+id/frameLayoutJogoCromossomo"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonJogoDivisaoCelularConfirmar"
+        app:layout_constraintBottom_toTopOf="@+id/buttonJogoCromossomoConfirmar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -32,15 +31,15 @@
     </FrameLayout>
 
     <TextView
-        android:id="@+id/textViewQuestaoDivisaoCelular"
+        android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:text="Questão: /10"
+        android:text="Questão: /7"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonJogoDivisaoCelularConfirmar"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonJogoCromossomoConfirmar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/buttonJogoDivisaoCelularConfirmar" />
+        app:layout_constraintTop_toTopOf="@+id/buttonJogoCromossomoConfirmar" />
 </android.support.constraint.ConstraintLayout>
