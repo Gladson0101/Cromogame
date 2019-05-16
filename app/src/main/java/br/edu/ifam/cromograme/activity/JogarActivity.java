@@ -30,6 +30,10 @@ public class JogarActivity extends AppCompatActivity {
     }
 
     public void jogarDoencas(View view) {
+        startActivity(new Intent(getApplicationContext(), JogoDoencasActivity.class));
+    }
 
+    public void voltar(View view) {
+        finish();
     }
 }
