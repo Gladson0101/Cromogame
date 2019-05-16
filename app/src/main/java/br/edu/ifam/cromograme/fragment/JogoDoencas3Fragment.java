@@ -32,7 +32,7 @@ public class JogoDoencas3Fragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_jogo_doencas3, container, false);
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoDoencas);
-        textView.setText("Questão: 3/10");
+        textView.setText("Questão: 3/3");
 
         radioButton = view.findViewById(R.id.rbDoencasCerto3);
 
@@ -43,9 +43,12 @@ public class JogoDoencas3Fragment extends Fragment {
 
                 resposta();
 
+                getActivity().finish();
+
+                /*
                 FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.frameLayoutJogoDoencas, new JogoDoencas4Fragment());
-                transaction.commit();
+                transaction.commit(); */
             }
         });
 

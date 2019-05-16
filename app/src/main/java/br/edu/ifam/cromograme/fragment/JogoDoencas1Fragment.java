@@ -32,7 +32,7 @@ public class JogoDoencas1Fragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_jogo_doencas1, container, false);
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoDoencas);
-        textView.setText("Questão: 1/10");
+        textView.setText("Questão: 1/3");
 
         radioButton = view.findViewById(R.id.rbDoencasCerto1);
 

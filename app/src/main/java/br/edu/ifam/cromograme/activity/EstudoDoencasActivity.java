@@ -1,5 +1,6 @@
 package br.edu.ifam.cromograme.activity;
 
+import android.content.pm.ActivityInfo;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -34,6 +35,7 @@ public class EstudoDoencasActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_estudo_doencas);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
