@@ -43,10 +43,9 @@ public class JogoDoencas3Fragment extends Fragment {
 
                 resposta();
 
-                /*
                 FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                 transaction.replace(R.id.frameLayoutJogoDoencas, new JogoDoencas4Fragment());
-                transaction.commit(); */
+                transaction.commit();
             }
         });
 
