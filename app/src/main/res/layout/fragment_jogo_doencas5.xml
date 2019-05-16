@@ -1,14 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.JogoDoencas5Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Monte o cariótipo da síndrome de Down"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtKlinefelter01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtDown02"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+        <TextView
+            android:id="@+id/txtDown02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter01"
+            app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+        <TextView
+            android:id="@+id/txtDown03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter01" />
+
+        <TextView
+            android:id="@+id/txtDown04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtDown05"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDown03" />
+
+        <TextView
+            android:id="@+id/txtDown05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txtDown04"
+            app:layout_constraintTop_toBottomOf="@+id/txtDown03" />
+
+        <TextView
+            android:id="@+id/txtDown06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtDown07"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDown04" />
+
+        <TextView
+            android:id="@+id/txtDown07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtDown08"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txtDown06"
+            app:layout_constraintTop_toBottomOf="@+id/txtDown05" />
+
+        <TextView
+            android:id="@+id/txtDown08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txtDown07"
+            app:layout_constraintTop_toBottomOf="@+id/txtDown05" />
+
+        <ImageView
+            android:id="@+id/imgDown01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:src="@drawable/down_sindrome01"
+            app:layout_constraintEnd_toEndOf="@+id/txtKlinefelter01"
+            app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+        <ImageView
+            android:id="@+id/imgDown02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:src="@drawable/down_sindrome02"
+            app:layout_constraintEnd_toEndOf="@+id/textView101"
+            app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+        <ImageView
+            android:id="@+id/imgDown03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/down_sindrome03"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgDown04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="3dp"
+            android:src="@drawable/down_sindrome04"
+            app:layout_constraintBottom_toBottomOf="@+id/txtDown04"
+            app:layout_constraintEnd_toStartOf="@+id/txtDown03" />
+
+        <ImageView
+            android:id="@+id/imgDown05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/down_sindrome05"
+            app:layout_constraintBottom_toTopOf="@+id/txtDown02"
+            app:layout_constraintStart_toEndOf="@+id/textView101"
+            app:layout_constraintTop_toTopOf="@+id/txtDown02" />
+
+        <ImageView
+            android:id="@+id/imgDown06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/down_sindrome06"
+            app:layout_constraintStart_toStartOf="@+id/txtDown03"
+            app:layout_constraintTop_toTopOf="@+id/txtDown03" />
+
+        <ImageView
+            android:id="@+id/imgDown07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/down_sindrome07"
+            app:layout_constraintBottom_toTopOf="@+id/txtDown05"
+            app:layout_constraintStart_toEndOf="@+id/txtDown05" />
+
+        <ImageView
+            android:id="@+id/imgDown08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/down_sindrome08"
+            app:layout_constraintBottom_toBottomOf="@+id/txtDown08"
+            app:layout_constraintEnd_toEndOf="@+id/txtDown08"
+            app:layout_constraintTop_toBottomOf="@+id/txtDown08" />
+    </android.support.constraint.ConstraintLayout>
 </FrameLayout>

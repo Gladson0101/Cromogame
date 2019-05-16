@@ -1,14 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.JogoDoencas6Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Monte o cariótipo da síndrome de Klinefelter"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtKlinefelter01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtKlinefelter02"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+        <TextView
+            android:id="@+id/txtKlinefelter02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter01"
+            app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+        <TextView
+            android:id="@+id/txtKlinefelter03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter02" />
+
+        <TextView
+            android:id="@+id/txtKlinefelter04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtKlinefelter05"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter03" />
+
+        <TextView
+            android:id="@+id/txtKlinefelter05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter04"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter03" />
+
+        <TextView
+            android:id="@+id/txtKlinefelter06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtKlinefelter07"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter04" />
+
+        <TextView
+            android:id="@+id/txtKlinefelter07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtKlinefelter08"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter06"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter05" />
+
+        <TextView
+            android:id="@+id/txtKlinefelter08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="__________"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter07"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter05" />
+
+        <ImageView
+            android:id="@+id/imgKlinefelter01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:src="@drawable/klinefelter_sindrome01"
+            app:layout_constraintBottom_toBottomOf="@+id/txtKlinefelter01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter01" />
+
+        <ImageView
+            android:id="@+id/imgKlinefelter02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:src="@drawable/klinefelter_sindrome02"
+            app:layout_constraintEnd_toEndOf="@+id/imgKlinefelter06"
+            app:layout_constraintTop_toTopOf="@+id/txtKlinefelter03" />
+
+        <ImageView
+            android:id="@+id/imgKlinefelter03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/klinefelter_sindrome03"
+            app:layout_constraintStart_toStartOf="@+id/txtKlinefelter03"
+            app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+        <ImageView
+            android:id="@+id/imgKlinefelter04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="13dp"
+            android:src="@drawable/klinefelter_sindrome04"
+            app:layout_constraintBottom_toBottomOf="@+id/txtKlinefelter05"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgKlinefelter05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:src="@drawable/klinefelter_sindrome05"
+            app:layout_constraintBottom_toBottomOf="@+id/txtKlinefelter06"
+            app:layout_constraintEnd_toStartOf="@+id/imgKlinefelter02"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter06" />
+
+        <ImageView
+            android:id="@+id/imgKlinefelter06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/klinefelter_sindrome06"
+            app:layout_constraintStart_toStartOf="@+id/txtKlinefelter07"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter05" />
+
+        <ImageView
+            android:id="@+id/imgKlinefelter07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/klinefelter_sindrome07"
+            app:layout_constraintBottom_toBottomOf="@+id/txtKlinefelter08"
+            app:layout_constraintStart_toStartOf="@+id/txtKlinefelter08"
+            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter08" />
+
+        <ImageView
+            android:id="@+id/imgKlinefelter08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="35dp"
+            android:src="@drawable/klinefelter_sindrome08"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imgKlinefelter06" />
+    </android.support.constraint.ConstraintLayout>
 </FrameLayout>
