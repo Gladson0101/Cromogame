@@ -2,17 +2,16 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.JogoDoencas4Fragment">
+    tools:context=".fragment.JogoDoencas7Fragment">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView_ed"
+            android:id="@+id/textView_kli"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -20,14 +19,14 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Monte o cariótipo e descrubra qual a síndrome"
+            android:text="Complete o cariótipo e identifique qual a síndrome"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ScrollView
-            android:id="@+id/sv_ed"
+            android:id="@+id/sv_kli"
             android:layout_width="100dp"
             android:layout_height="0dp"
             android:layout_marginStart="8dp"
@@ -36,7 +35,7 @@
             android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_ed">
+            app:layout_constraintTop_toBottomOf="@+id/textView_kli">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -45,188 +44,188 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/ed_01"
+                    android:id="@+id/kli_01"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_01" />
+                    android:src="@drawable/kli_01" />
 
                 <ImageView
-                    android:id="@+id/ed_02"
+                    android:id="@+id/kli_02"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_02" />
+                    android:src="@drawable/kli_02" />
 
                 <ImageView
-                    android:id="@+id/ed_03"
+                    android:id="@+id/kli_03"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_03" />
+                    android:src="@drawable/kli_03" />
 
                 <ImageView
-                    android:id="@+id/ed_04"
+                    android:id="@+id/kli_04"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_04" />
+                    android:src="@drawable/kli_04" />
 
                 <ImageView
-                    android:id="@+id/ed_05"
+                    android:id="@+id/kli_05"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_05" />
+                    android:src="@drawable/kli_05" />
 
                 <ImageView
-                    android:id="@+id/ed_06"
+                    android:id="@+id/kli_06"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_06" />
+                    android:src="@drawable/kli_06" />
 
                 <ImageView
-                    android:id="@+id/ed_07"
+                    android:id="@+id/kli_07"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_07" />
+                    android:src="@drawable/kli_07" />
 
                 <ImageView
-                    android:id="@+id/ed_08"
+                    android:id="@+id/kli_08"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_08" />
+                    android:src="@drawable/kli_08" />
 
                 <ImageView
-                    android:id="@+id/ed_09"
+                    android:id="@+id/kli_09"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_09" />
+                    android:src="@drawable/kli_09" />
 
                 <ImageView
-                    android:id="@+id/ed_10"
+                    android:id="@+id/kli_10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_10" />
+                    android:src="@drawable/kli_10" />
 
                 <ImageView
-                    android:id="@+id/ed_11"
+                    android:id="@+id/kli_11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_11" />
+                    android:src="@drawable/kli_11" />
 
                 <ImageView
-                    android:id="@+id/ed_12"
+                    android:id="@+id/kli_12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_12" />
+                    android:src="@drawable/kli_12" />
 
                 <ImageView
-                    android:id="@+id/ed_13"
+                    android:id="@+id/kli_13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_13" />
+                    android:src="@drawable/kli_13" />
 
                 <ImageView
-                    android:id="@+id/ed_14"
+                    android:id="@+id/kli_14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_14" />
+                    android:src="@drawable/kli_14" />
 
                 <ImageView
-                    android:id="@+id/ed_15"
+                    android:id="@+id/kli_15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_15" />
+                    android:src="@drawable/kli_15" />
 
                 <ImageView
-                    android:id="@+id/ed_16"
+                    android:id="@+id/kli_16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_16" />
+                    android:src="@drawable/kli_16" />
 
                 <ImageView
-                    android:id="@+id/ed_17"
+                    android:id="@+id/kli_17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_17" />
+                    android:src="@drawable/kli_17" />
 
                 <ImageView
-                    android:id="@+id/ed_18"
+                    android:id="@+id/kli_18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_18" />
+                    android:src="@drawable/kli_18" />
 
                 <ImageView
-                    android:id="@+id/ed_19"
+                    android:id="@+id/kli_19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_19" />
+                    android:src="@drawable/kli_19" />
 
                 <ImageView
-                    android:id="@+id/ed_20"
+                    android:id="@+id/kli_20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_20" />
+                    android:src="@drawable/kli_20" />
 
                 <ImageView
-                    android:id="@+id/ed_21"
+                    android:id="@+id/kli_21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_21" />
+                    android:src="@drawable/kli_21" />
 
                 <ImageView
-                    android:id="@+id/ed_22"
+                    android:id="@+id/kli_22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_22" />
+                    android:src="@drawable/kli_22" />
 
                 <ImageView
-                    android:id="@+id/ed_23"
+                    android:id="@+id/kli_23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_23" />
+                    android:src="@drawable/kli_23" />
 
                 <ImageView
-                    android:id="@+id/ed_24"
+                    android:id="@+id/kli_24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_24" />
+                    android:src="@drawable/kli_24" />
             </LinearLayout>
         </ScrollView>
 
         <LinearLayout
-            android:id="@+id/ll_ed_1"
+            android:id="@+id/ll_kli_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toTopOf="@+id/ll_ed_3"
-            app:layout_constraintEnd_toStartOf="@+id/ll_ed_2"
+            app:layout_constraintBottom_toTopOf="@+id/ll_kli_3"
+            app:layout_constraintEnd_toStartOf="@+id/ll_kli_2"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/sv_ed"
-            app:layout_constraintTop_toBottomOf="@+id/textView_ed">
+            app:layout_constraintStart_toEndOf="@+id/sv_kli"
+            app:layout_constraintTop_toBottomOf="@+id/textView_kli">
 
             <ImageView
-                android:id="@+id/imgEd_01"
+                android:id="@+id/imgKli_01"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -236,7 +235,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_02"
+                android:id="@+id/imgKli_02"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -246,7 +245,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_03"
+                android:id="@+id/imgKli_03"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -258,22 +257,18 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ll_ed_2"
+            android:id="@+id/ll_kli_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toTopOf="@+id/ll_ed_3"
+            app:layout_constraintBottom_toTopOf="@+id/ll_kli_3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/ll_ed_1"
-            app:layout_constraintTop_toBottomOf="@+id/textView_ed">
+            app:layout_constraintStart_toEndOf="@+id/ll_kli_1"
+            app:layout_constraintTop_toBottomOf="@+id/textView_kli">
 
             <ImageView
-                android:id="@+id/imgEd_04"
+                android:id="@+id/imgKli_04"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -283,7 +278,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_05"
+                android:id="@+id/imgKli_05"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -294,18 +289,18 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ll_ed_3"
+            android:id="@+id/ll_kli_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toTopOf="@+id/ll_ed_4"
+            app:layout_constraintBottom_toTopOf="@+id/ll_kli_4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/sv_ed"
-            app:layout_constraintTop_toBottomOf="@+id/ll_ed_1">
+            app:layout_constraintStart_toEndOf="@+id/sv_kli"
+            app:layout_constraintTop_toBottomOf="@+id/ll_kli_1">
 
             <ImageView
-                android:id="@+id/imgEd_06"
+                android:id="@+id/imgKli_06"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -315,7 +310,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_07"
+                android:id="@+id/imgKli_07"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -325,7 +320,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_08"
+                android:id="@+id/imgKli_08"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -335,7 +330,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_09"
+                android:id="@+id/imgKli_09"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -345,7 +340,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_10"
+                android:id="@+id/imgKli_10"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -355,7 +350,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_11"
+                android:id="@+id/imgKli_11"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -365,7 +360,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_12"
+                android:id="@+id/imgKli_12"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -377,18 +372,18 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ll_ed_4"
+            android:id="@+id/ll_kli_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toTopOf="@+id/ll_ed_6"
-            app:layout_constraintEnd_toStartOf="@+id/ll_ed_5"
+            app:layout_constraintBottom_toTopOf="@+id/ll_kli_6"
+            app:layout_constraintEnd_toStartOf="@+id/ll_kli_5"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/sv_ed"
-            app:layout_constraintTop_toBottomOf="@+id/ll_ed_3">
+            app:layout_constraintStart_toEndOf="@+id/sv_kli"
+            app:layout_constraintTop_toBottomOf="@+id/ll_kli_3">
 
             <ImageView
-                android:id="@+id/imgEd_13"
+                android:id="@+id/imgKli_13"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -398,7 +393,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_14"
+                android:id="@+id/imgKli_14"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -408,7 +403,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_15"
+                android:id="@+id/imgKli_15"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -419,18 +414,18 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ll_ed_5"
+            android:id="@+id/ll_kli_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toTopOf="@+id/ll_ed_8"
+            app:layout_constraintBottom_toTopOf="@+id/ll_kli_8"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/ll_ed_4"
-            app:layout_constraintTop_toBottomOf="@+id/ll_ed_3">
+            app:layout_constraintStart_toEndOf="@+id/ll_kli_4"
+            app:layout_constraintTop_toBottomOf="@+id/ll_kli_3">
 
             <ImageView
-                android:id="@+id/imgEd_16"
+                android:id="@+id/imgKli_16"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -440,7 +435,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_17"
+                android:id="@+id/imgKli_17"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -450,7 +445,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_18"
+                android:id="@+id/imgKli_18"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -462,19 +457,18 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ll_ed_6"
+            android:id="@+id/ll_kli_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/ll_ed_7"
+            app:layout_constraintEnd_toStartOf="@+id/ll_kli_7"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/sv_ed"
-            app:layout_constraintTop_toBottomOf="@+id/ll_ed_4">
+            app:layout_constraintStart_toEndOf="@+id/sv_kli"
+            app:layout_constraintTop_toBottomOf="@+id/ll_kli_4">
 
             <ImageView
-                android:id="@+id/imgEd_19"
+                android:id="@+id/imgKli_19"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -484,7 +478,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_20"
+                android:id="@+id/imgKli_20"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -496,18 +490,18 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ll_ed_7"
+            android:id="@+id/ll_kli_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/ll_ed_8"
+            app:layout_constraintEnd_toStartOf="@+id/ll_kli_8"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/ll_ed_6"
-            app:layout_constraintTop_toBottomOf="@+id/ll_ed_4">
+            app:layout_constraintStart_toEndOf="@+id/ll_kli_6"
+            app:layout_constraintTop_toBottomOf="@+id/ll_kli_4">
 
             <ImageView
-                android:id="@+id/imgEd_21"
+                android:id="@+id/imgKli_21"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -517,7 +511,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_22"
+                android:id="@+id/imgKli_22"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -529,18 +523,18 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/ll_ed_8"
+            android:id="@+id/ll_kli_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/ll_ed_7"
-            app:layout_constraintTop_toBottomOf="@+id/ll_ed_5">
+            app:layout_constraintStart_toEndOf="@+id/ll_kli_7"
+            app:layout_constraintTop_toBottomOf="@+id/ll_kli_5">
 
             <ImageView
-                android:id="@+id/imgEd_23"
+                android:id="@+id/imgKli_23"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -550,7 +544,7 @@
                 android:src="@drawable/espaco" />
 
             <ImageView
-                android:id="@+id/imgEd_24"
+                android:id="@+id/imgKli_24"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
@@ -559,6 +553,5 @@
                 android:layout_marginRight="8dp"
                 android:src="@drawable/espaco" />
         </LinearLayout>
-
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>

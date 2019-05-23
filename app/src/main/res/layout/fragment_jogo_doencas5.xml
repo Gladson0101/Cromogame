@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.JogoDoencas5Fragment">
@@ -10,199 +11,544 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <TextView
-            android:id="@+id/textView101"
+            android:id="@+id/textView_tur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:text="Monte o cariótipo da síndrome de Down"
+            android:layout_marginEnd="107dp"
+            android:layout_marginRight="107dp"
+            android:text="Monte o cariótipo da síndrome característica de uma monossomia"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/txtKlinefelter01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/txtDown02"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView101" />
-
-        <TextView
-            android:id="@+id/txtDown02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter01"
-            app:layout_constraintTop_toBottomOf="@+id/textView101" />
-
-        <TextView
-            android:id="@+id/txtDown03"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter01" />
-
-        <TextView
-            android:id="@+id/txtDown04"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/txtDown05"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtDown03" />
-
-        <TextView
-            android:id="@+id/txtDown05"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/txtDown04"
-            app:layout_constraintTop_toBottomOf="@+id/txtDown03" />
-
-        <TextView
-            android:id="@+id/txtDown06"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/txtDown07"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtDown04" />
-
-        <TextView
-            android:id="@+id/txtDown07"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/txtDown08"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/txtDown06"
-            app:layout_constraintTop_toBottomOf="@+id/txtDown05" />
-
-        <TextView
-            android:id="@+id/txtDown08"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/txtDown07"
-            app:layout_constraintTop_toBottomOf="@+id/txtDown05" />
-
-        <ImageView
-            android:id="@+id/imgDown01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="24dp"
-            android:layout_marginRight="24dp"
-            android:src="@drawable/down_sindrome01"
-            app:layout_constraintEnd_toEndOf="@+id/txtKlinefelter01"
-            app:layout_constraintTop_toBottomOf="@+id/textView101" />
-
-        <ImageView
-            android:id="@+id/imgDown02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="57dp"
-            android:layout_marginRight="57dp"
-            android:src="@drawable/down_sindrome02"
-            app:layout_constraintEnd_toEndOf="@+id/textView101"
-            app:layout_constraintTop_toBottomOf="@+id/textView101" />
-
-        <ImageView
-            android:id="@+id/imgDown03"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="31dp"
-            android:layout_marginLeft="31dp"
-            android:layout_marginBottom="30dp"
-            android:src="@drawable/down_sindrome03"
+        <ScrollView
+            android:id="@+id/sv_tur"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_tur">
 
-        <ImageView
-            android:id="@+id/imgDown04"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerPadding="5dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/tur_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_01" />
+
+                <ImageView
+                    android:id="@+id/tur_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_02" />
+
+                <ImageView
+                    android:id="@+id/tur_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_03" />
+
+                <ImageView
+                    android:id="@+id/tur_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_04" />
+
+                <ImageView
+                    android:id="@+id/tur_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_05" />
+
+                <ImageView
+                    android:id="@+id/tur_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_06" />
+
+                <ImageView
+                    android:id="@+id/tur_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_07" />
+
+                <ImageView
+                    android:id="@+id/tur_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_08" />
+
+                <ImageView
+                    android:id="@+id/tur_09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_09" />
+
+                <ImageView
+                    android:id="@+id/tur_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_10" />
+
+                <ImageView
+                    android:id="@+id/tur_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_11" />
+
+                <ImageView
+                    android:id="@+id/tur_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_12" />
+
+                <ImageView
+                    android:id="@+id/tur_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_13" />
+
+                <ImageView
+                    android:id="@+id/tur_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_14" />
+
+                <ImageView
+                    android:id="@+id/tur_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_15" />
+
+                <ImageView
+                    android:id="@+id/tur_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_16" />
+
+                <ImageView
+                    android:id="@+id/tur_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_17" />
+
+                <ImageView
+                    android:id="@+id/tur_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_18" />
+
+                <ImageView
+                    android:id="@+id/tur_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_19" />
+
+                <ImageView
+                    android:id="@+id/tur_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_20" />
+
+                <ImageView
+                    android:id="@+id/tur_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_21" />
+
+                <ImageView
+                    android:id="@+id/tur_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_22" />
+
+                <ImageView
+                    android:id="@+id/tur_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_23" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_tur_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="18dp"
-            android:layout_marginRight="18dp"
-            android:layout_marginBottom="3dp"
-            android:src="@drawable/down_sindrome04"
-            app:layout_constraintBottom_toBottomOf="@+id/txtDown04"
-            app:layout_constraintEnd_toStartOf="@+id/txtDown03" />
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_tur_3"
+            app:layout_constraintEnd_toStartOf="@+id/ll_tur_2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sv_tur"
+            app:layout_constraintTop_toBottomOf="@+id/textView_tur">
 
-        <ImageView
-            android:id="@+id/imgDown05"
+            <ImageView
+                android:id="@+id/imgTur_01"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_02"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_03"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tur_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/down_sindrome05"
-            app:layout_constraintBottom_toTopOf="@+id/txtDown02"
-            app:layout_constraintStart_toEndOf="@+id/textView101"
-            app:layout_constraintTop_toTopOf="@+id/txtDown02" />
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_tur_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ll_tur_1"
+            app:layout_constraintTop_toBottomOf="@+id/textView_tur">
 
-        <ImageView
-            android:id="@+id/imgDown06"
+            <ImageView
+                android:id="@+id/imgTur_04"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_05"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tur_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="49dp"
-            android:layout_marginLeft="49dp"
-            android:layout_marginTop="21dp"
-            android:src="@drawable/down_sindrome06"
-            app:layout_constraintStart_toStartOf="@+id/txtDown03"
-            app:layout_constraintTop_toTopOf="@+id/txtDown03" />
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_tur_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sv_tur"
+            app:layout_constraintTop_toBottomOf="@+id/ll_tur_1">
 
-        <ImageView
-            android:id="@+id/imgDown07"
+            <ImageView
+                android:id="@+id/imgTur_06"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_07"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_08"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_09"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tur_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="17dp"
-            android:layout_marginLeft="17dp"
-            android:layout_marginBottom="10dp"
-            android:src="@drawable/down_sindrome07"
-            app:layout_constraintBottom_toTopOf="@+id/txtDown05"
-            app:layout_constraintStart_toEndOf="@+id/txtDown05" />
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_tur_6"
+            app:layout_constraintEnd_toStartOf="@+id/ll_tur_5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sv_tur"
+            app:layout_constraintTop_toBottomOf="@+id/ll_tur_3">
 
-        <ImageView
-            android:id="@+id/imgDown08"
+            <ImageView
+                android:id="@+id/imgTur_13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tur_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="7dp"
-            android:layout_marginRight="7dp"
-            android:src="@drawable/down_sindrome08"
-            app:layout_constraintBottom_toBottomOf="@+id/txtDown08"
-            app:layout_constraintEnd_toEndOf="@+id/txtDown08"
-            app:layout_constraintTop_toBottomOf="@+id/txtDown08" />
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_tur_7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ll_tur_4"
+            app:layout_constraintTop_toBottomOf="@+id/ll_tur_3">
+
+            <ImageView
+                android:id="@+id/imgTur_16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_17"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tur_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ll_tur_7"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sv_tur"
+            app:layout_constraintTop_toBottomOf="@+id/ll_tur_4">
+
+            <ImageView
+                android:id="@+id/imgTur_19"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tur_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ll_tur_8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ll_tur_6"
+            app:layout_constraintTop_toBottomOf="@+id/ll_tur_4">
+
+            <ImageView
+                android:id="@+id/imgTur_21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tur_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ll_tur_7"
+            app:layout_constraintTop_toBottomOf="@+id/ll_tur_5">
+
+            <ImageView
+                android:id="@+id/imgTur_23"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgTur_24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+        </LinearLayout>
+
     </android.support.constraint.ConstraintLayout>
+
 </FrameLayout>

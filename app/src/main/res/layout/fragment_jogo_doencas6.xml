@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView102"
+            android:id="@+id/textView_pa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -19,190 +19,539 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Monte o cariótipo da síndrome de Klinefelter"
-            android:textSize="18sp"
+            android:text="Monte o cariótipo e identifique qual a síndrome"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/txtKlinefelter01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/txtKlinefelter02"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView102" />
-
-        <TextView
-            android:id="@+id/txtKlinefelter02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter01"
-            app:layout_constraintTop_toBottomOf="@+id/textView102" />
-
-        <TextView
-            android:id="@+id/txtKlinefelter03"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter02" />
-
-        <TextView
-            android:id="@+id/txtKlinefelter04"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/txtKlinefelter05"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter03" />
-
-        <TextView
-            android:id="@+id/txtKlinefelter05"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter04"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter03" />
-
-        <TextView
-            android:id="@+id/txtKlinefelter06"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/txtKlinefelter07"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter04" />
-
-        <TextView
-            android:id="@+id/txtKlinefelter07"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/txtKlinefelter08"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter06"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter05" />
-
-        <TextView
-            android:id="@+id/txtKlinefelter08"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="__________"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/txtKlinefelter07"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter05" />
-
-        <ImageView
-            android:id="@+id/imgKlinefelter01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="29dp"
-            android:layout_marginLeft="29dp"
-            android:src="@drawable/klinefelter_sindrome01"
-            app:layout_constraintBottom_toBottomOf="@+id/txtKlinefelter01"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter01" />
-
-        <ImageView
-            android:id="@+id/imgKlinefelter02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="26dp"
-            android:layout_marginRight="26dp"
-            android:src="@drawable/klinefelter_sindrome02"
-            app:layout_constraintEnd_toEndOf="@+id/imgKlinefelter06"
-            app:layout_constraintTop_toTopOf="@+id/txtKlinefelter03" />
-
-        <ImageView
-            android:id="@+id/imgKlinefelter03"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/klinefelter_sindrome03"
-            app:layout_constraintStart_toStartOf="@+id/txtKlinefelter03"
-            app:layout_constraintTop_toBottomOf="@+id/textView102" />
-
-        <ImageView
-            android:id="@+id/imgKlinefelter04"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="13dp"
-            android:src="@drawable/klinefelter_sindrome04"
-            app:layout_constraintBottom_toBottomOf="@+id/txtKlinefelter05"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-        <ImageView
-            android:id="@+id/imgKlinefelter05"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="39dp"
-            android:layout_marginRight="39dp"
-            android:src="@drawable/klinefelter_sindrome05"
-            app:layout_constraintBottom_toBottomOf="@+id/txtKlinefelter06"
-            app:layout_constraintEnd_toStartOf="@+id/imgKlinefelter02"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter06" />
-
-        <ImageView
-            android:id="@+id/imgKlinefelter06"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="37dp"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="21dp"
-            android:src="@drawable/klinefelter_sindrome06"
-            app:layout_constraintStart_toStartOf="@+id/txtKlinefelter07"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter05" />
-
-        <ImageView
-            android:id="@+id/imgKlinefelter07"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginLeft="50dp"
-            android:src="@drawable/klinefelter_sindrome07"
-            app:layout_constraintBottom_toBottomOf="@+id/txtKlinefelter08"
-            app:layout_constraintStart_toStartOf="@+id/txtKlinefelter08"
-            app:layout_constraintTop_toBottomOf="@+id/txtKlinefelter08" />
-
-        <ImageView
-            android:id="@+id/imgKlinefelter08"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="18dp"
-            android:layout_marginLeft="18dp"
-            android:layout_marginBottom="35dp"
-            android:src="@drawable/klinefelter_sindrome08"
+        <ScrollView
+            android:id="@+id/sv_ed"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/imgKlinefelter06" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_pa">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerPadding="5dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/pa_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_01" />
+
+                <ImageView
+                    android:id="@+id/pa_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_02" />
+
+                <ImageView
+                    android:id="@+id/pa_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_03" />
+
+                <ImageView
+                    android:id="@+id/pa_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_04" />
+
+                <ImageView
+                    android:id="@+id/pa_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_05" />
+
+                <ImageView
+                    android:id="@+id/pa_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_06" />
+
+                <ImageView
+                    android:id="@+id/pa_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_07" />
+
+                <ImageView
+                    android:id="@+id/pa_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_08" />
+
+                <ImageView
+                    android:id="@+id/pa_09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_09" />
+
+                <ImageView
+                    android:id="@+id/pa_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_10" />
+
+                <ImageView
+                    android:id="@+id/pa_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_11" />
+
+                <ImageView
+                    android:id="@+id/pa_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_12" />
+
+                <ImageView
+                    android:id="@+id/pa_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_13" />
+
+                <ImageView
+                    android:id="@+id/pa_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_14" />
+
+                <ImageView
+                    android:id="@+id/pa_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_15" />
+
+                <ImageView
+                    android:id="@+id/pa_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_16" />
+
+                <ImageView
+                    android:id="@+id/pa_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_17" />
+
+                <ImageView
+                    android:id="@+id/pa_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_18" />
+
+                <ImageView
+                    android:id="@+id/pa_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_19" />
+
+                <ImageView
+                    android:id="@+id/pa_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_20" />
+
+                <ImageView
+                    android:id="@+id/pa_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_21" />
+
+                <ImageView
+                    android:id="@+id/pa_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_22" />
+
+                <ImageView
+                    android:id="@+id/pa_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_23" />
+
+                <ImageView
+                    android:id="@+id/pa_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_24" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_pa_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_pa_3"
+            app:layout_constraintEnd_toStartOf="@+id/ll_pa_2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sv_ed"
+            app:layout_constraintTop_toBottomOf="@+id/textView_pa">
+
+            <ImageView
+                android:id="@+id/imgPa_01"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_02"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_03"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pa_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_pa_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ll_pa_1"
+            app:layout_constraintTop_toBottomOf="@+id/textView_pa">
+
+            <ImageView
+                android:id="@+id/imgPa_04"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_05"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pa_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_pa_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sv_ed"
+            app:layout_constraintTop_toBottomOf="@+id/ll_pa_1">
+
+            <ImageView
+                android:id="@+id/imgPa_06"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_07"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_08"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_09"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pa_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_pa_6"
+            app:layout_constraintEnd_toStartOf="@+id/ll_pa_5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sv_ed"
+            app:layout_constraintTop_toBottomOf="@+id/ll_pa_3">
+
+            <ImageView
+                android:id="@+id/imgPa_13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pa_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/ll_pa_7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ll_pa_4"
+            app:layout_constraintTop_toBottomOf="@+id/ll_pa_3">
+
+            <ImageView
+                android:id="@+id/imgPa_16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_17"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pa_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ll_pa_7"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sv_ed"
+            app:layout_constraintTop_toBottomOf="@+id/ll_pa_4">
+
+            <ImageView
+                android:id="@+id/imgPa_19"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pa_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ll_pa_8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ll_pa_6"
+            app:layout_constraintTop_toBottomOf="@+id/ll_pa_4">
+
+            <ImageView
+                android:id="@+id/imgPa_21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pa_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ll_pa_7"
+            app:layout_constraintTop_toBottomOf="@+id/ll_pa_5">
+
+            <ImageView
+                android:id="@+id/imgPa_23"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+
+            <ImageView
+                android:id="@+id/imgPa_24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/espaco" />
+        </LinearLayout>
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>
