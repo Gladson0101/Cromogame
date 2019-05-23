@@ -42,18 +42,16 @@ public class JogoCromossomo5Fragment extends Fragment {
             public void onClick(View v) {
 
                 if (editText.getText().toString().toUpperCase().equals("CONDENSACÃO")) {
-                    DialogFragment dialogFragment = new CorrectAlertFragment();
+                    DialogFragment dialogFragment = new CorrectLastAlertFragment();
                     dialogFragment.setCancelable(false);
                     FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                     dialogFragment.show(transaction, "");
                 } else {
-                    DialogFragment dialogFragment = new WrongAlertFragment();
+                    DialogFragment dialogFragment = new WrongLastAlertFragment();
                     dialogFragment.setCancelable(false);
                     FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                     dialogFragment.show(transaction, "");
                 }
-
-                getActivity().finish();
             }
         });
         return view;

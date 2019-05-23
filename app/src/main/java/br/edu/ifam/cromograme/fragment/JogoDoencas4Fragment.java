@@ -1,6 +1,7 @@
 package br.edu.ifam.cromograme.fragment;
 
 
+import android.app.AlertDialog;
 import android.content.ClipData;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -80,34 +81,47 @@ public class JogoDoencas4Fragment extends Fragment {
             }
         });
 
+        ImageView img = getActivity().findViewById(R.id.imageViewDica);
+        img.setVisibility(View.VISIBLE);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder.setTitle("Dica");
+                builder.setMessage("É uma trissomia\nOrelhas mal formadas");
+                builder.setPositiveButton("OK", null);
+                builder.create().show();
+            }
+        });
+
         return view;
     }
 
     private boolean hasClickers() {
         if (imgEd_01.hasOnClickListeners()
-                && imgEd_02.hasOnClickListeners()
-                && imgEd_03.hasOnClickListeners()
-                && imgEd_04.hasOnClickListeners()
-                && imgEd_05.hasOnClickListeners()
-                && imgEd_06.hasOnClickListeners()
-                && imgEd_07.hasOnClickListeners()
-                && imgEd_08.hasOnClickListeners()
-                && imgEd_09.hasOnClickListeners()
-                && imgEd_10.hasOnClickListeners()
-                && imgEd_11.hasOnClickListeners()
-                && imgEd_12.hasOnClickListeners()
-                && imgEd_13.hasOnClickListeners()
-                && imgEd_14.hasOnClickListeners()
-                && imgEd_15.hasOnClickListeners()
-                && imgEd_16.hasOnClickListeners()
-                && imgEd_17.hasOnClickListeners()
-                && imgEd_18.hasOnClickListeners()
-                && imgEd_19.hasOnClickListeners()
-                && imgEd_20.hasOnClickListeners()
-                && imgEd_21.hasOnClickListeners()
-                && imgEd_22.hasOnClickListeners()
-                && imgEd_23.hasOnClickListeners()
-                && imgEd_24.hasOnClickListeners()
+                || imgEd_02.hasOnClickListeners()
+                || imgEd_03.hasOnClickListeners()
+                || imgEd_04.hasOnClickListeners()
+                || imgEd_05.hasOnClickListeners()
+                || imgEd_06.hasOnClickListeners()
+                || imgEd_07.hasOnClickListeners()
+                || imgEd_08.hasOnClickListeners()
+                || imgEd_09.hasOnClickListeners()
+                || imgEd_10.hasOnClickListeners()
+                || imgEd_11.hasOnClickListeners()
+                || imgEd_12.hasOnClickListeners()
+                || imgEd_13.hasOnClickListeners()
+                || imgEd_14.hasOnClickListeners()
+                || imgEd_15.hasOnClickListeners()
+                || imgEd_16.hasOnClickListeners()
+                || imgEd_17.hasOnClickListeners()
+                || imgEd_18.hasOnClickListeners()
+                || imgEd_19.hasOnClickListeners()
+                || imgEd_20.hasOnClickListeners()
+                || imgEd_21.hasOnClickListeners()
+                || imgEd_22.hasOnClickListeners()
+                || imgEd_23.hasOnClickListeners()
+                || imgEd_24.hasOnClickListeners()
         ) {
             return true;
         } else {

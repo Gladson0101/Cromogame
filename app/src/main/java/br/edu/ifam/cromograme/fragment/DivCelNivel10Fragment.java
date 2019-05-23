@@ -40,7 +40,6 @@ public class DivCelNivel10Fragment extends Fragment {
             @Override
             public void onClick(View v) {
                 resposta();
-                getActivity().finish();
             }
         });
 
@@ -49,12 +48,12 @@ public class DivCelNivel10Fragment extends Fragment {
 
     public void resposta() {
         if (radioButton.isChecked()) {
-            DialogFragment dialogFragment = new CorrectAlertFragment();
+            DialogFragment dialogFragment = new CorrectLastAlertFragment();
             dialogFragment.setCancelable(false);
             FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
             dialogFragment.show(transaction, "");
         } else {
-            DialogFragment dialogFragment = new WrongAlertFragment();
+            DialogFragment dialogFragment = new WrongLastAlertFragment();
             dialogFragment.setCancelable(false);
             FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
             dialogFragment.show(transaction, "");
