@@ -63,4 +63,17 @@
         app:layout_constraintStart_toEndOf="@+id/textViewQuestaoDoencas"
         app:layout_constraintTop_toBottomOf="@+id/frameLayoutJogoDoencas"
         app:srcCompat="@drawable/dica" />
+
+    <Button
+        android:id="@+id/buttonJogoDoencasDesistir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_red_rounded"
+        android:text="Desistir"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonJogoDoencasConfirmar"
+        app:layout_constraintEnd_toStartOf="@+id/buttonJogoDoencasConfirmar"
+        app:layout_constraintTop_toTopOf="@+id/buttonJogoDoencasConfirmar" />
 </android.support.constraint.ConstraintLayout>

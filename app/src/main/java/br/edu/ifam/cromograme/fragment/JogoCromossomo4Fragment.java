@@ -1,7 +1,9 @@
 package br.edu.ifam.cromograme.fragment;
 
 
+import android.app.AlertDialog;
 import android.content.ClipData;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
@@ -35,7 +37,7 @@ public class JogoCromossomo4Fragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_jogo_cromossomo4, container, false);
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoCromossomo);
-        textView.setText("Questão: 4/5");
+        textView.setText("Questão: 4/8");
 
         textViewCromatide = view.findViewById(R.id.textViewCromatide);
         textViewCromatide.setOnLongClickListener(longClickListener);
@@ -46,6 +48,25 @@ public class JogoCromossomo4Fragment extends Fragment {
         textViewCromossomo.setOnLongClickListener(longClickListener);
         textViewCromossomoResposta = view.findViewById(R.id.textViewCromossomoResposta);
         textViewCromossomoResposta.setOnDragListener(dragListener);
+
+        Button buttonDesistir = getActivity().findViewById(R.id.buttonJogoCromossomoDesistir);
+        buttonDesistir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder.setTitle("Desistir");
+                builder.setMessage("Deseja mesmo desistir?");
+                builder.setCancelable(false);
+                builder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        getActivity().finish();
+                    }
+                });
+                builder.setNegativeButton("Não", null);
+                builder.create().show();
+            }
+        });
 
         Button button = getActivity().findViewById(R.id.buttonJogoCromossomoConfirmar);
         button.setOnClickListener(new View.OnClickListener() {

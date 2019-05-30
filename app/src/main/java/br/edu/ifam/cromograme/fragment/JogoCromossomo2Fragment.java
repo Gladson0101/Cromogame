@@ -1,6 +1,8 @@
 package br.edu.ifam.cromograme.fragment;
 
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.ColorInt;
@@ -35,7 +37,7 @@ public class JogoCromossomo2Fragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_jogo_cromossomo2, container, false);
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoCromossomo);
-        textView.setText("Questão: 2/5");
+        textView.setText("Questão: 2/8");
 
         imgCerto = view.findViewById(R.id.imageViewCerto);
         imgErrado1 = view.findViewById(R.id.imageViewErrado1);
@@ -108,6 +110,25 @@ public class JogoCromossomo2Fragment extends Fragment {
 
                 imgErrado3.setSelected(true);
                 imgErrado3.setBackgroundResource(R.color.colorAccent);
+            }
+        });
+
+        Button buttonDesistir = getActivity().findViewById(R.id.buttonJogoCromossomoDesistir);
+        buttonDesistir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder.setTitle("Desistir");
+                builder.setMessage("Deseja mesmo desistir?");
+                builder.setCancelable(false);
+                builder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        getActivity().finish();
+                    }
+                });
+                builder.setNegativeButton("Não", null);
+                builder.create().show();
             }
         });
 
