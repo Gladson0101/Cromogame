@@ -37,7 +37,7 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                android:text="Cromossomos duplos não homólogos atingem o grau máximo de espiralização.\nOs cromossomos associam-se as fibras do fuso, alinhando-se no equador da célula."
+                android:text="Os cromossomos organizam-se no plano equatorial, com suas cromátides ainda unidas pelo centrômero, ligando-se às fibras do fuso."
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

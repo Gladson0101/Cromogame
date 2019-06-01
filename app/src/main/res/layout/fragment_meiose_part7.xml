@@ -37,7 +37,7 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                android:text="Ocorre divisão do citoplasma (citocinese) originando quatro células filhas.\nAs células filhas são haplóides e possuem cromossomos simples.\nA carioteca e o nucléolo reaparecem e os cromossomos se descondensam."
+                android:text="Aparecimento da carioteca, reorganização do nucléolo e divisão do citoplasma, completando a divisão meiótica e totalizando 4 células filhas haploides."
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

@@ -33,7 +33,7 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Encurtamento das fibras do fuso.\nCromossomos homólogos se separam, indo cada um para um lado da célula.\nNão ocorre divisão do centrômero!"
+            android:text="Encurtamento das fibras do fuso, deslocando os cromossomos homólogos para os polos da célula. Nessa fase, não há separação do centrômero"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

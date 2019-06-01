@@ -34,7 +34,7 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
-            android:text="Duplicação dos centríolos.\nEspiralização dos cromossomos.\nDesaparecimento da carioteca."
+            android:text="Os cromossomos voltam a se condensar, e o nucléolo e a carioteca desaparecem novamente. Os centríolos duplicam-se e dirigem-se para os polos, formando o fuso acromático."
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

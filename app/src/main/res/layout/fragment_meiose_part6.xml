@@ -37,7 +37,7 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                android:text="Ocorre o encurtamento das fibras do fuso e divisão do centrômero.\nCada cromossomos duplo origina duas cromátides irmãs (cromossomos simples).\nOs cromossomos simples são puxados para os pólos da célula."
+                android:text="Separação das cromátides irmãs, puxadas pelas fibras em direção a polos opostos."
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

@@ -15,6 +15,7 @@ import java.util.List;
 
 import br.edu.ifam.cromograme.R;
 import br.edu.ifam.cromograme.adapter.SliderPagerAdapter;
+import br.edu.ifam.cromograme.fragment.MeiosePart0Fragment;
 import br.edu.ifam.cromograme.fragment.MeiosePart1Fragment;
 import br.edu.ifam.cromograme.fragment.MeiosePart2Fragment;
 import br.edu.ifam.cromograme.fragment.MeiosePart3Fragment;
@@ -53,6 +54,7 @@ public class EstudoDivCelActivity extends AppCompatActivity {
         list.add(new MitosePart3Fragment());
         list.add(new MitosePart4Fragment());
         list.add(new MitosePart5Fragment());
+        list.add(new MeiosePart0Fragment());
         list.add(new MeiosePart1Fragment());
         list.add(new MeiosePart2Fragment());
         list.add(new MeiosePart3Fragment());
