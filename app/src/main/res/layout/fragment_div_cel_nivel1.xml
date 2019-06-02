@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.DivCelNivel1Fragment">
+    tools:context=".fragment.jogo.divisao.DivCelNivel1Fragment">
 
     <TextView
         android:id="@+id/textView11"

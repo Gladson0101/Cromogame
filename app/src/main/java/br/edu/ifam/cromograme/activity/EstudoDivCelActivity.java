@@ -17,19 +17,19 @@ import java.util.List;
 
 import br.edu.ifam.cromograme.R;
 import br.edu.ifam.cromograme.adapter.SliderPagerAdapter;
-import br.edu.ifam.cromograme.fragment.MeiosePart0Fragment;
-import br.edu.ifam.cromograme.fragment.MeiosePart1Fragment;
-import br.edu.ifam.cromograme.fragment.MeiosePart2Fragment;
-import br.edu.ifam.cromograme.fragment.MeiosePart3Fragment;
-import br.edu.ifam.cromograme.fragment.MeiosePart4Fragment;
-import br.edu.ifam.cromograme.fragment.MeiosePart5Fragment;
-import br.edu.ifam.cromograme.fragment.MeiosePart6Fragment;
-import br.edu.ifam.cromograme.fragment.MeiosePart7Fragment;
-import br.edu.ifam.cromograme.fragment.MitosePart1Fragment;
-import br.edu.ifam.cromograme.fragment.MitosePart2Fragment;
-import br.edu.ifam.cromograme.fragment.MitosePart3Fragment;
-import br.edu.ifam.cromograme.fragment.MitosePart4Fragment;
-import br.edu.ifam.cromograme.fragment.MitosePart5Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MeiosePart0Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MeiosePart1Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MeiosePart2Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MeiosePart3Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MeiosePart4Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MeiosePart5Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MeiosePart6Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MeiosePart7Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MitosePart1Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MitosePart2Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MitosePart3Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MitosePart4Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.divisao.MitosePart5Fragment;
 
 public class EstudoDivCelActivity extends AppCompatActivity {
 

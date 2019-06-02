@@ -8,19 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import br.edu.ifam.cromograme.R;
-import br.edu.ifam.cromograme.fragment.DivCelNivel10Fragment;
-import br.edu.ifam.cromograme.fragment.DivCelNivel1Fragment;
-import br.edu.ifam.cromograme.fragment.DivCelNivel2Fragment;
-import br.edu.ifam.cromograme.fragment.DivCelNivel3Fragment;
-import br.edu.ifam.cromograme.fragment.DivCelNivel4Fragment;
-import br.edu.ifam.cromograme.fragment.DivCelNivel5Fragment;
-import br.edu.ifam.cromograme.fragment.DivCelNivel6Fragment;
-import br.edu.ifam.cromograme.fragment.DivCelNivel7Fragment;
-import br.edu.ifam.cromograme.fragment.DivCelNivel8Fragment;
-import br.edu.ifam.cromograme.fragment.DivCelNivel9Fragment;
+import br.edu.ifam.cromograme.fragment.jogo.divisao.DivCelNivel1Fragment;
 
 public class JogoDivisaoCelularActivity extends AppCompatActivity {
 

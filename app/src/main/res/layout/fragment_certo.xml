@@ -12,10 +12,11 @@
     <ImageView
         android:id="@+id/imageView38"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="180dp"
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
+        android:scaleType="fitCenter"
         android:src="@drawable/resposta_certa" />
 
     <TextView
@@ -25,7 +26,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:text="Resposta Correta"
+        android:text="Você Acertou!!!"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />

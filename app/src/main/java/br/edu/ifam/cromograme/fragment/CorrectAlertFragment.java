@@ -20,7 +20,7 @@ public class CorrectAlertFragment extends DialogFragment {
 
         View viewRoot = inflater.inflate(R.layout.fragment_certo, null);
         builder.setView(viewRoot);
-        builder.setPositiveButton("OK", null);
+        builder.setPositiveButton("Próximo", null);
 
         return builder.create();
     }

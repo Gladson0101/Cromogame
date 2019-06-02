@@ -16,18 +16,11 @@ import java.util.List;
 
 import br.edu.ifam.cromograme.R;
 import br.edu.ifam.cromograme.adapter.SliderPagerAdapter;
-import br.edu.ifam.cromograme.fragment.DoencasPart1Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart2Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart3Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart4Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart5Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart6Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart7Fragment;
-import br.edu.ifam.cromograme.fragment.EstudoEstrutural1Fragment;
-import br.edu.ifam.cromograme.fragment.EstudoEstrutural2Fragment;
-import br.edu.ifam.cromograme.fragment.EstudoEstrutural3Fragment;
-import br.edu.ifam.cromograme.fragment.EstudoEstrutural4Fragment;
-import br.edu.ifam.cromograme.fragment.EstudoEstrutural5Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.estrutura.EstudoEstrutural1Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.estrutura.EstudoEstrutural2Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.estrutura.EstudoEstrutural3Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.estrutura.EstudoEstrutural4Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.estrutura.EstudoEstrutural5Fragment;
 
 public class EstudoEstruturasActivity extends AppCompatActivity {
 

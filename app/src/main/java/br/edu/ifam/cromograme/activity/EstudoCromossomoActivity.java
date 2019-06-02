@@ -16,11 +16,11 @@ import java.util.List;
 
 import br.edu.ifam.cromograme.R;
 import br.edu.ifam.cromograme.adapter.SliderPagerAdapter;
-import br.edu.ifam.cromograme.fragment.CromossomoPart1Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart2Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart3Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart4Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart5Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.cromossomo.CromossomoPart1Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.cromossomo.CromossomoPart2Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.cromossomo.CromossomoPart3Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.cromossomo.CromossomoPart4Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.cromossomo.CromossomoPart5Fragment;
 
 public class EstudoCromossomoActivity extends AppCompatActivity {
 

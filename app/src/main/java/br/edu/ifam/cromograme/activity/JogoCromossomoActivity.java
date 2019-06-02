@@ -12,7 +12,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 import br.edu.ifam.cromograme.R;
-import br.edu.ifam.cromograme.fragment.JogoCromossomo1Fragment;
+import br.edu.ifam.cromograme.fragment.jogo.cromossomo.JogoCromossomo1Fragment;
 
 public class JogoCromossomoActivity extends AppCompatActivity {
 

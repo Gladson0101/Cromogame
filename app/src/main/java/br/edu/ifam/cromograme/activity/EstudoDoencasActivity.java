@@ -16,13 +16,13 @@ import java.util.List;
 
 import br.edu.ifam.cromograme.R;
 import br.edu.ifam.cromograme.adapter.SliderPagerAdapter;
-import br.edu.ifam.cromograme.fragment.DoencasPart1Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart2Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart3Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart4Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart5Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart6Fragment;
-import br.edu.ifam.cromograme.fragment.DoencasPart7Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.numerico.DoencasPart1Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.numerico.DoencasPart2Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.numerico.DoencasPart3Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.numerico.DoencasPart4Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.numerico.DoencasPart5Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.numerico.DoencasPart6Fragment;
+import br.edu.ifam.cromograme.fragment.estudo.numerico.DoencasPart7Fragment;
 
 public class EstudoDoencasActivity extends AppCompatActivity {
 

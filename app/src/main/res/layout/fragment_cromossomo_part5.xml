@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.CromossomoPart5Fragment">
+    tools:context=".fragment.estudo.cromossomo.CromossomoPart5Fragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -65,6 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Exemplo de crosmossomos homólogos"
+                android:textAlignment="center"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="@+id/imageView18"
                 app:layout_constraintStart_toStartOf="@+id/imageView18"
@@ -90,6 +91,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Exemplo de crosmossomos não homólogos"
+                android:textAlignment="center"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="@+id/imageView19"
                 app:layout_constraintStart_toStartOf="@+id/imageView19"

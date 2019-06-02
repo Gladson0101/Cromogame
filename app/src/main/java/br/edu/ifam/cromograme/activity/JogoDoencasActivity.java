@@ -1,17 +1,15 @@
 package br.edu.ifam.cromograme.activity;
 
-import android.app.AlertDialog;
 import android.content.pm.ActivityInfo;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
 import br.edu.ifam.cromograme.R;
-import br.edu.ifam.cromograme.fragment.JogoDoencas4Fragment;
+import br.edu.ifam.cromograme.fragment.jogo.numerico.JogoDoencas4Fragment;
 
 public class JogoDoencasActivity extends AppCompatActivity {
 
