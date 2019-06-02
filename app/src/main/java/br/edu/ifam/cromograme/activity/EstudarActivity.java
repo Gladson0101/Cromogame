@@ -27,6 +27,10 @@ public class EstudarActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), EstudoDivCelActivity.class));
     }
 
+    public void estudarEstruturas(View view) {
+        startActivity(new Intent(getApplicationContext(), EstudoEstruturasActivity.class));
+    }
+
     public void estudarCromossomos(View view) {
         startActivity(new Intent(getApplicationContext(), EstudoCromossomoActivity.class));
     }

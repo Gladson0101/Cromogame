@@ -12,38 +12,74 @@
         android:background="@drawable/img_fundo_03">
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cardViewEstudarDivisao"
+            android:id="@+id/cardViewEstudarDoencas"
             android:layout_width="0dp"
             android:layout_height="200dp"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="64dp"
+            android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
-            android:onClick="estudarDivisaoCelular"
+            android:onClick="estudarDoencas"
             app:cardBackgroundColor="@color/colorCardMenu"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cardViewEstudarCromossomos">
+            app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imageView34"
+                    android:id="@+id/imageView33"
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/divisao_fundo" />
+                    app:srcCompat="@drawable/doencas" />
 
                 <TextView
-                    android:id="@+id/textView49"
+                    android:id="@+id/textView88"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Divisão Celular"
+                    android:text="Idiograma de Numéricas"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewEstudarEstruturas"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:onClick="estudarEstruturas"
+            app:cardBackgroundColor="@color/colorCardMenu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewEstudarDoencas">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/doencas" />
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Idiograma de Estruturas"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
                     android:textSize="18sp"
@@ -64,12 +100,11 @@
             app:cardBackgroundColor="@color/colorCardMenu"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardViewEstudarDoencas">
+            app:layout_constraintTop_toBottomOf="@+id/cardViewEstudarEstruturas">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -92,37 +127,37 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cardViewEstudarDoencas"
+            android:id="@+id/cardViewEstudarDivisao"
             android:layout_width="0dp"
             android:layout_height="200dp"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="64dp"
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
-            android:onClick="estudarDoencas"
+            android:onClick="estudarDivisaoCelular"
             app:cardBackgroundColor="@color/colorCardMenu"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toBottomOf="@id/cardViewEstudarCromossomos">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="10dp"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imageView33"
+                    android:id="@+id/imageView34"
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    app:srcCompat="@drawable/doencas" />
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/divisao_fundo" />
 
                 <TextView
-                    android:id="@+id/textView88"
+                    android:id="@+id/textView49"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Idiograma"
+                    android:text="Divisão Celular"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
                     android:textSize="18sp"
@@ -142,8 +177,8 @@
             android:layout_marginRight="64dp"
             android:layout_marginBottom="32dp"
             android:background="@drawable/button_blue_rounded"
-            android:onClick="voltar"
             android:elevation="10dp"
+            android:onClick="voltar"
             android:text="Voltar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

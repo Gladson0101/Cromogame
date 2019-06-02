@@ -16,13 +16,20 @@ import java.util.List;
 
 import br.edu.ifam.cromograme.R;
 import br.edu.ifam.cromograme.adapter.SliderPagerAdapter;
-import br.edu.ifam.cromograme.fragment.CromossomoPart1Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart2Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart3Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart4Fragment;
-import br.edu.ifam.cromograme.fragment.CromossomoPart5Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart1Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart2Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart3Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart4Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart5Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart6Fragment;
+import br.edu.ifam.cromograme.fragment.DoencasPart7Fragment;
+import br.edu.ifam.cromograme.fragment.EstudoEstrutural1Fragment;
+import br.edu.ifam.cromograme.fragment.EstudoEstrutural2Fragment;
+import br.edu.ifam.cromograme.fragment.EstudoEstrutural3Fragment;
+import br.edu.ifam.cromograme.fragment.EstudoEstrutural4Fragment;
+import br.edu.ifam.cromograme.fragment.EstudoEstrutural5Fragment;
 
-public class EstudoCromossomoActivity extends AppCompatActivity {
+public class EstudoEstruturasActivity extends AppCompatActivity {
 
     private ViewPager viewPager;
     private PagerAdapter pagerAdapter;
@@ -39,24 +46,24 @@ public class EstudoCromossomoActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        setContentView(R.layout.activity_estudo_cromossomo);
+        setContentView(R.layout.activity_estudo_estruturas);
 
-        getSupportActionBar().setTitle("Cromossomos");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Alterações Estruturais");
 
         // Inicializa os Fragments.
         final List<Fragment> list = new ArrayList<>();
-        list.add(new CromossomoPart1Fragment());
-        list.add(new CromossomoPart2Fragment());
-        list.add(new CromossomoPart3Fragment());
-        list.add(new CromossomoPart4Fragment());
-        list.add(new CromossomoPart5Fragment());
+        list.add(new EstudoEstrutural1Fragment());
+        list.add(new EstudoEstrutural2Fragment());
+        list.add(new EstudoEstrutural3Fragment());
+        list.add(new EstudoEstrutural4Fragment());
+        list.add(new EstudoEstrutural5Fragment());
 
         // Inicializa o adapter.
         pagerAdapter = new SliderPagerAdapter(getSupportFragmentManager(), list);
 
         // Configura o ViewPager.
-        viewPager = findViewById(R.id.viewPagerEstudoCromossomo);
+        viewPager = findViewById(R.id.viewPagerEstudoEstruturas);
         viewPager.setAdapter(pagerAdapter);
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -69,11 +76,12 @@ public class EstudoCromossomoActivity extends AppCompatActivity {
                     buttonAnterior.setVisibility(View.VISIBLE);
                 }
 
-                if (globalIndex == list.size()-1) {
+                if (globalIndex == list.size() - 1) {
                     buttonProximo.setText("Sair");
                 } else {
                     buttonProximo.setText("Próximo");
                 }
+
             }
 
             @Override
@@ -87,24 +95,24 @@ public class EstudoCromossomoActivity extends AppCompatActivity {
             }
         });
 
-        /* Configurações dos botões */
-        buttonAnterior = findViewById(R.id.buttonEstudoCromossomoAnterior);
+        buttonAnterior = findViewById(R.id.buttonEstudoEstruturasAnterior);
+        buttonAnterior.setVisibility(View.GONE);
         buttonAnterior.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (globalIndex > 0) viewPager.setCurrentItem(--globalIndex);
-
             }
         });
 
-        buttonProximo = findViewById(R.id.buttonEstudoCromossomoProximo);
+        buttonProximo = findViewById(R.id.buttonEstudoEstruturasProximo);
         buttonProximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (globalIndex < list.size()-1) viewPager.setCurrentItem(++globalIndex);
-                else if (globalIndex == list.size()-1) finish();
+                if (globalIndex < list.size() - 1) viewPager.setCurrentItem(++globalIndex);
+                else if (globalIndex == list.size() - 1) finish();
             }
         });
+
     }
 
     @Override

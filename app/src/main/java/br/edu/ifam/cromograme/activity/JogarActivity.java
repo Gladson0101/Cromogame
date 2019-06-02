@@ -27,6 +27,10 @@ public class JogarActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), JogoCromossomoActivity.class));
     }
 
+    public void jogoEstruturas(View view) {
+        startActivity(new Intent(getApplicationContext(), JogoEstruturasActivity.class));
+    }
+
     public void jogoDivisaoCelular(View view) {
         startActivity(new Intent(getApplicationContext(), JogoDivisaoCelularActivity.class));
     }
