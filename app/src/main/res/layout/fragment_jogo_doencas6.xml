@@ -27,39 +27,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/pa_01"
+                    android:id="@+id/pa_14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/pa_01" />
-
-                <ImageView
-                    android:id="@+id/pa_02"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_02" />
-
-                <ImageView
-                    android:id="@+id/pa_03"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_03" />
-
-                <ImageView
-                    android:id="@+id/pa_04"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_04" />
-
-                <ImageView
-                    android:id="@+id/pa_05"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_05" />
+                    android:src="@drawable/pa_14" />
 
                 <ImageView
                     android:id="@+id/pa_06"
@@ -69,95 +41,25 @@
                     android:src="@drawable/pa_06" />
 
                 <ImageView
-                    android:id="@+id/pa_07"
+                    android:id="@+id/pa_24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/pa_07" />
+                    android:src="@drawable/pa_24" />
 
                 <ImageView
-                    android:id="@+id/pa_08"
+                    android:id="@+id/pa_02"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/pa_08" />
+                    android:src="@drawable/pa_02" />
 
                 <ImageView
-                    android:id="@+id/pa_09"
+                    android:id="@+id/pa_01"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/pa_09" />
-
-                <ImageView
-                    android:id="@+id/pa_10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_10" />
-
-                <ImageView
-                    android:id="@+id/pa_11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_11" />
-
-                <ImageView
-                    android:id="@+id/pa_12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_12" />
-
-                <ImageView
-                    android:id="@+id/pa_13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_13" />
-
-                <ImageView
-                    android:id="@+id/pa_14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_14" />
-
-                <ImageView
-                    android:id="@+id/pa_15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_15" />
-
-                <ImageView
-                    android:id="@+id/pa_16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_16" />
-
-                <ImageView
-                    android:id="@+id/pa_17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_17" />
-
-                <ImageView
-                    android:id="@+id/pa_18"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_18" />
-
-                <ImageView
-                    android:id="@+id/pa_19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/pa_19" />
+                    android:src="@drawable/pa_01" />
 
                 <ImageView
                     android:id="@+id/pa_20"
@@ -174,11 +76,67 @@
                     android:src="@drawable/pa_21" />
 
                 <ImageView
-                    android:id="@+id/pa_22"
+                    android:id="@+id/pa_10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/pa_22" />
+                    android:src="@drawable/pa_10" />
+
+                <ImageView
+                    android:id="@+id/pa_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_19" />
+
+                <ImageView
+                    android:id="@+id/pa_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_12" />
+
+                <ImageView
+                    android:id="@+id/pa_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_18" />
+
+                <ImageView
+                    android:id="@+id/pa_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_05" />
+
+                <ImageView
+                    android:id="@+id/pa_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_07" />
+
+                <ImageView
+                    android:id="@+id/pa_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_08" />
+
+                <ImageView
+                    android:id="@+id/pa_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_03" />
+
+                <ImageView
+                    android:id="@+id/pa_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_13" />
 
                 <ImageView
                     android:id="@+id/pa_23"
@@ -188,11 +146,54 @@
                     android:src="@drawable/pa_23" />
 
                 <ImageView
-                    android:id="@+id/pa_24"
+                    android:id="@+id/pa_22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/pa_24" />
+                    android:src="@drawable/pa_22" />
+
+                <ImageView
+                    android:id="@+id/pa_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_17" />
+
+                <ImageView
+                    android:id="@+id/pa_09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_09" />
+
+                <ImageView
+                    android:id="@+id/pa_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_15" />
+
+                <ImageView
+                    android:id="@+id/pa_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_11" />
+
+                <ImageView
+                    android:id="@+id/pa_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_16" />
+
+                <ImageView
+                    android:id="@+id/pa_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/pa_04" />
+
             </LinearLayout>
         </ScrollView>
 

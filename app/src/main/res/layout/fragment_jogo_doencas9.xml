@@ -29,123 +29,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/tri_01"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_01" />
-
-                <ImageView
-                    android:id="@+id/tri_02"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_02" />
-
-                <ImageView
-                    android:id="@+id/tri_03"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_03" />
-
-                <ImageView
-                    android:id="@+id/tri_04"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_04" />
-
-                <ImageView
-                    android:id="@+id/tri_05"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_05" />
-
-                <ImageView
-                    android:id="@+id/tri_06"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_06" />
-
-                <ImageView
-                    android:id="@+id/tri_07"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_07" />
-
-                <ImageView
-                    android:id="@+id/tri_08"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_08" />
-
-                <ImageView
                     android:id="@+id/tri_09"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:src="@drawable/tri_09" />
-
-                <ImageView
-                    android:id="@+id/tri_10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_10" />
-
-                <ImageView
-                    android:id="@+id/tri_11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_11" />
-
-                <ImageView
-                    android:id="@+id/tri_12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_12" />
-
-                <ImageView
-                    android:id="@+id/tri_13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_13" />
-
-                <ImageView
-                    android:id="@+id/tri_14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_14" />
-
-                <ImageView
-                    android:id="@+id/tri_15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_15" />
-
-                <ImageView
-                    android:id="@+id/tri_16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_16" />
-
-                <ImageView
-                    android:id="@+id/tri_17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tri_17" />
 
                 <ImageView
                     android:id="@+id/tri_18"
@@ -155,18 +43,88 @@
                     android:src="@drawable/tri_18" />
 
                 <ImageView
-                    android:id="@+id/tri_19"
+                    android:id="@+id/tri_06"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/tri_19" />
+                    android:src="@drawable/tri_06" />
 
                 <ImageView
-                    android:id="@+id/tri_20"
+                    android:id="@+id/tri_02"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/tri_20" />
+                    android:src="@drawable/tri_02" />
+
+                <ImageView
+                    android:id="@+id/tri_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_05" />
+
+                <ImageView
+                    android:id="@+id/tri_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_03" />
+
+                <ImageView
+                    android:id="@+id/tri_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_13" />
+
+                <ImageView
+                    android:id="@+id/tri_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_08" />
+
+                <ImageView
+                    android:id="@+id/tri_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_04" />
+
+                <ImageView
+                    android:id="@+id/tri_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_01" />
+
+                <ImageView
+                    android:id="@+id/tri_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_12" />
+
+                <ImageView
+                    android:id="@+id/tri_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_07" />
+
+                <ImageView
+                    android:id="@+id/tri_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_11" />
+
+                <ImageView
+                    android:id="@+id/tri_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_14" />
 
                 <ImageView
                     android:id="@+id/tri_21"
@@ -183,11 +141,54 @@
                     android:src="@drawable/tri_22" />
 
                 <ImageView
+                    android:id="@+id/tri_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_10" />
+
+                <ImageView
+                    android:id="@+id/tri_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_20" />
+
+                <ImageView
+                    android:id="@+id/tri_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_16" />
+
+                <ImageView
+                    android:id="@+id/tri_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_17" />
+
+                <ImageView
+                    android:id="@+id/tri_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_15" />
+
+                <ImageView
+                    android:id="@+id/tri_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tri_19" />
+
+                <ImageView
                     android:id="@+id/tri_23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:src="@drawable/tri_23" />
+
             </LinearLayout>
         </ScrollView>
 

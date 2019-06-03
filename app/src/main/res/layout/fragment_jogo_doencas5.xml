@@ -31,6 +31,20 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/tur_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_21" />
+
+                <ImageView
+                    android:id="@+id/tur_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_03" />
+
+                <ImageView
                     android:id="@+id/tur_01"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -45,20 +59,6 @@
                     android:src="@drawable/tur_02" />
 
                 <ImageView
-                    android:id="@+id/tur_03"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_03" />
-
-                <ImageView
-                    android:id="@+id/tur_04"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_04" />
-
-                <ImageView
                     android:id="@+id/tur_05"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -66,46 +66,11 @@
                     android:src="@drawable/tur_05" />
 
                 <ImageView
-                    android:id="@+id/tur_06"
+                    android:id="@+id/tur_17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/tur_06" />
-
-                <ImageView
-                    android:id="@+id/tur_07"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_07" />
-
-                <ImageView
-                    android:id="@+id/tur_08"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_08" />
-
-                <ImageView
-                    android:id="@+id/tur_09"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_09" />
-
-                <ImageView
-                    android:id="@+id/tur_10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_10" />
-
-                <ImageView
-                    android:id="@+id/tur_11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_11" />
+                    android:src="@drawable/tur_17" />
 
                 <ImageView
                     android:id="@+id/tur_12"
@@ -115,11 +80,67 @@
                     android:src="@drawable/tur_12" />
 
                 <ImageView
+                    android:id="@+id/tur_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_07" />
+
+                <ImageView
+                    android:id="@+id/tur_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_11" />
+
+                <ImageView
                     android:id="@+id/tur_13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:src="@drawable/tur_13" />
+
+                <ImageView
+                    android:id="@+id/tur_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_04" />
+
+                <ImageView
+                    android:id="@+id/tur_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_18" />
+
+                <ImageView
+                    android:id="@+id/tur_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_10" />
+
+                <ImageView
+                    android:id="@+id/tur_09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_09" />
+
+                <ImageView
+                    android:id="@+id/tur_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_06" />
+
+                <ImageView
+                    android:id="@+id/tur_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_23" />
 
                 <ImageView
                     android:id="@+id/tur_14"
@@ -136,32 +157,18 @@
                     android:src="@drawable/tur_15" />
 
                 <ImageView
-                    android:id="@+id/tur_16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_16" />
-
-                <ImageView
-                    android:id="@+id/tur_17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_17" />
-
-                <ImageView
-                    android:id="@+id/tur_18"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_18" />
-
-                <ImageView
                     android:id="@+id/tur_19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:src="@drawable/tur_19" />
+
+                <ImageView
+                    android:id="@+id/tur_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/tur_08" />
 
                 <ImageView
                     android:id="@+id/tur_20"
@@ -171,11 +178,11 @@
                     android:src="@drawable/tur_20" />
 
                 <ImageView
-                    android:id="@+id/tur_21"
+                    android:id="@+id/tur_16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/tur_21" />
+                    android:src="@drawable/tur_16" />
 
                 <ImageView
                     android:id="@+id/tur_22"
@@ -184,12 +191,6 @@
                     android:padding="5dp"
                     android:src="@drawable/tur_22" />
 
-                <ImageView
-                    android:id="@+id/tur_23"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/tur_23" />
             </LinearLayout>
         </ScrollView>
 

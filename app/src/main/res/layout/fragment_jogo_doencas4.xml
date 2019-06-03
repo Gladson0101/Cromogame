@@ -10,7 +10,7 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ef9a9a">
+        android:background="#ffcccb">
 
         <ScrollView
             android:id="@+id/sv_ed"
@@ -31,39 +31,18 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/ed_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_21" />
+
+                <ImageView
                     android:id="@+id/ed_01"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:src="@drawable/ed_01" />
-
-                <ImageView
-                    android:id="@+id/ed_02"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_02" />
-
-                <ImageView
-                    android:id="@+id/ed_03"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_03" />
-
-                <ImageView
-                    android:id="@+id/ed_04"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_04" />
-
-                <ImageView
-                    android:id="@+id/ed_05"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_05" />
 
                 <ImageView
                     android:id="@+id/ed_06"
@@ -73,25 +52,18 @@
                     android:src="@drawable/ed_06" />
 
                 <ImageView
-                    android:id="@+id/ed_07"
+                    android:id="@+id/ed_04"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_07" />
+                    android:src="@drawable/ed_04" />
 
                 <ImageView
-                    android:id="@+id/ed_08"
+                    android:id="@+id/ed_02"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_08" />
-
-                <ImageView
-                    android:id="@+id/ed_09"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_09" />
+                    android:src="@drawable/ed_02" />
 
                 <ImageView
                     android:id="@+id/ed_10"
@@ -101,11 +73,39 @@
                     android:src="@drawable/ed_10" />
 
                 <ImageView
+                    android:id="@+id/ed_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_03" />
+
+                <ImageView
+                    android:id="@+id/ed_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_07" />
+
+                <ImageView
                     android:id="@+id/ed_11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:src="@drawable/ed_11" />
+
+                <ImageView
+                    android:id="@+id/ed_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_05" />
+
+                <ImageView
+                    android:id="@+id/ed_09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_09" />
 
                 <ImageView
                     android:id="@+id/ed_12"
@@ -115,11 +115,11 @@
                     android:src="@drawable/ed_12" />
 
                 <ImageView
-                    android:id="@+id/ed_13"
+                    android:id="@+id/ed_08"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/ed_13" />
+                    android:src="@drawable/ed_08" />
 
                 <ImageView
                     android:id="@+id/ed_14"
@@ -129,6 +129,13 @@
                     android:src="@drawable/ed_14" />
 
                 <ImageView
+                    android:id="@+id/ed_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_13" />
+
+                <ImageView
                     android:id="@+id/ed_15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -136,11 +143,39 @@
                     android:src="@drawable/ed_15" />
 
                 <ImageView
+                    android:id="@+id/ed_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_23" />
+
+                <ImageView
                     android:id="@+id/ed_16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:src="@drawable/ed_16" />
+
+                <ImageView
+                    android:id="@+id/ed_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_19" />
+
+                <ImageView
+                    android:id="@+id/ed_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_22" />
+
+                <ImageView
+                    android:id="@+id/ed_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/ed_24" />
 
                 <ImageView
                     android:id="@+id/ed_17"
@@ -157,46 +192,12 @@
                     android:src="@drawable/ed_18" />
 
                 <ImageView
-                    android:id="@+id/ed_19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_19" />
-
-                <ImageView
                     android:id="@+id/ed_20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:src="@drawable/ed_20" />
 
-                <ImageView
-                    android:id="@+id/ed_21"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_21" />
-
-                <ImageView
-                    android:id="@+id/ed_22"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_22" />
-
-                <ImageView
-                    android:id="@+id/ed_23"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_23" />
-
-                <ImageView
-                    android:id="@+id/ed_24"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/ed_24" />
             </LinearLayout>
         </ScrollView>
 

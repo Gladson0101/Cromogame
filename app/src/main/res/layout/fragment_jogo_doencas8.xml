@@ -29,32 +29,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/jac_01"
+                    android:id="@+id/jac_24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/jac_01" />
-
-                <ImageView
-                    android:id="@+id/jac_02"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_02" />
-
-                <ImageView
-                    android:id="@+id/jac_03"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_03" />
-
-                <ImageView
-                    android:id="@+id/jac_04"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_04" />
+                    android:src="@drawable/jac_24" />
 
                 <ImageView
                     android:id="@+id/jac_05"
@@ -62,6 +41,13 @@
                     android:layout_height="wrap_content"
                     android:padding="5dp"
                     android:src="@drawable/jac_05" />
+
+                <ImageView
+                    android:id="@+id/jac_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_02" />
 
                 <ImageView
                     android:id="@+id/jac_06"
@@ -85,6 +71,13 @@
                     android:src="@drawable/jac_08" />
 
                 <ImageView
+                    android:id="@+id/jac_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_04" />
+
+                <ImageView
                     android:id="@+id/jac_09"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -99,53 +92,11 @@
                     android:src="@drawable/jac_10" />
 
                 <ImageView
-                    android:id="@+id/jac_11"
+                    android:id="@+id/jac_01"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/jac_11" />
-
-                <ImageView
-                    android:id="@+id/jac_12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_12" />
-
-                <ImageView
-                    android:id="@+id/jac_13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_13" />
-
-                <ImageView
-                    android:id="@+id/jac_14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_14" />
-
-                <ImageView
-                    android:id="@+id/jac_15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_15" />
-
-                <ImageView
-                    android:id="@+id/jac_16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_16" />
-
-                <ImageView
-                    android:id="@+id/jac_17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_17" />
+                    android:src="@drawable/jac_01" />
 
                 <ImageView
                     android:id="@+id/jac_18"
@@ -155,13 +106,6 @@
                     android:src="@drawable/jac_18" />
 
                 <ImageView
-                    android:id="@+id/jac_19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="5dp"
-                    android:src="@drawable/jac_19" />
-
-                <ImageView
                     android:id="@+id/jac_20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -169,18 +113,25 @@
                     android:src="@drawable/jac_20" />
 
                 <ImageView
-                    android:id="@+id/jac_21"
+                    android:id="@+id/jac_03"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/jac_21" />
+                    android:src="@drawable/jac_03" />
 
                 <ImageView
-                    android:id="@+id/jac_22"
+                    android:id="@+id/jac_15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/jac_22" />
+                    android:src="@drawable/jac_15" />
+
+                <ImageView
+                    android:id="@+id/jac_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_12" />
 
                 <ImageView
                     android:id="@+id/jac_23"
@@ -190,11 +141,61 @@
                     android:src="@drawable/jac_23" />
 
                 <ImageView
-                    android:id="@+id/jac_24"
+                    android:id="@+id/jac_11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:src="@drawable/jac_24" />
+                    android:src="@drawable/jac_11" />
+
+                <ImageView
+                    android:id="@+id/jac_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_13" />
+
+                <ImageView
+                    android:id="@+id/jac_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_22" />
+
+                <ImageView
+                    android:id="@+id/jac_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_14" />
+
+                <ImageView
+                    android:id="@+id/jac_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_17" />
+
+                <ImageView
+                    android:id="@+id/jac_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_19" />
+
+                <ImageView
+                    android:id="@+id/jac_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_21" />
+
+                <ImageView
+                    android:id="@+id/jac_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/jac_16" />
+
             </LinearLayout>
         </ScrollView>
 

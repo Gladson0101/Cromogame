@@ -9,161 +9,133 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/img_fundo_03">
+        android:background="#a5d6a7">
 
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardViewEstudarDoencas"
-            android:layout_width="0dp"
-            android:layout_height="200dp"
-            android:layout_marginStart="32dp"
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
-            android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
-            android:onClick="estudarDoencas"
-            app:cardBackgroundColor="#00000000"
+            android:background="@drawable/fundo_card_verde"
+            android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <LinearLayout
+            <ImageView
+                android:id="@+id/imageView33"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/idiograma_numerico" />
 
-                <ImageView
-                    android:id="@+id/imageView33"
-                    android:layout_width="match_parent"
-                    android:layout_height="160dp"
-                    app:srcCompat="@drawable/idiograma" />
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Idiograma de Numéricas"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/textView88"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Idiograma de Numéricas"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/white"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardViewEstudarEstruturas"
-            android:layout_width="0dp"
-            android:layout_height="200dp"
-            android:layout_marginStart="32dp"
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
-            android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
-            android:onClick="estudarEstruturas"
-            app:cardBackgroundColor="#00000000"
+            android:background="@drawable/fundo_card_verde"
+            android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardViewEstudarDoencas">
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
 
-            <LinearLayout
+            <ImageView
+                android:id="@+id/imageView50"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/doencas" />
 
-                <ImageView
-                    android:id="@+id/imageView50"
-                    android:layout_width="match_parent"
-                    android:layout_height="160dp"
-                    app:srcCompat="@drawable/idiograma_estrutura_02" />
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Idiograma de Estruturas"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/textView103"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Idiograma de Estruturas"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/white"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardViewEstudarCromossomos"
-            android:layout_width="0dp"
-            android:layout_height="200dp"
-            android:layout_marginStart="32dp"
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
-            android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
-            android:onClick="estudarCromossomos"
-            app:cardBackgroundColor="#00000000"
+            android:background="@drawable/fundo_card_verde"
+            android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardViewEstudarEstruturas">
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
 
-            <LinearLayout
+            <ImageView
+                android:id="@+id/imageView35"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="160dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cromo_azul" />
 
-                <ImageView
-                    android:id="@+id/imageView35"
-                    android:layout_width="match_parent"
-                    android:layout_height="160dp"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/cromossomos" />
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cromossomos"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/textView50"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Cromossomos"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/white"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardViewEstudarDivisao"
-            android:layout_width="0dp"
-            android:layout_height="200dp"
-            android:layout_marginStart="32dp"
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="64dp"
-            android:layout_marginEnd="32dp"
+            android:layout_marginTop="32dp"
             android:layout_marginRight="32dp"
-            android:onClick="estudarDivisaoCelular"
-            app:cardBackgroundColor="#00000000"
+            android:background="@drawable/fundo_card_verde"
+            android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cardViewEstudarCromossomos">
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
 
-            <LinearLayout
+            <ImageView
+                android:id="@+id/imageView34"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="160dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/divisao_azul" />
 
-                <ImageView
-                    android:id="@+id/imageView34"
-                    android:layout_width="match_parent"
-                    android:layout_height="160dp"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/divisao_fundo" />
-
-                <TextView
-                    android:id="@+id/textView49"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Divisão Celular"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/white"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Divisão Celular"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/buttonEstudoVoltar"
@@ -181,10 +153,9 @@
             android:onClick="voltar"
             android:text="Voltar"
             android:textColor="@android:color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardViewEstudarDivisao" />
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
     </android.support.constraint.ConstraintLayout>
 
 </ScrollView>
