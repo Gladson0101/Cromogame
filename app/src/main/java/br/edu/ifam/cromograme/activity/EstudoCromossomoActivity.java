@@ -71,8 +71,10 @@ public class EstudoCromossomoActivity extends AppCompatActivity {
 
                 if (globalIndex == list.size()-1) {
                     buttonProximo.setText("Sair");
+                    buttonProximo.setBackgroundResource(R.drawable.button_red_rounded);
                 } else {
                     buttonProximo.setText("Próximo");
+                    buttonProximo.setBackgroundResource(R.drawable.button_blue_rounded);
                 }
             }
 

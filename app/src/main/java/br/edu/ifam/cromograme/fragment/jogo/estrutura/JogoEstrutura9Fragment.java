@@ -16,7 +16,9 @@ import android.widget.TextView;
 
 import br.edu.ifam.cromograme.R;
 import br.edu.ifam.cromograme.fragment.CorrectAlertFragment;
+import br.edu.ifam.cromograme.fragment.CorrectLastAlertFragment;
 import br.edu.ifam.cromograme.fragment.WrongAlertFragment;
+import br.edu.ifam.cromograme.fragment.WrongLastAlertFragment;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -72,20 +74,16 @@ public class JogoEstrutura9Fragment extends Fragment {
             public void onClick(View v) {
 
                 if (resposta()) {
-                    DialogFragment dialogFragment = new CorrectAlertFragment();
+                    DialogFragment dialogFragment = new CorrectLastAlertFragment();
                     dialogFragment.setCancelable(false);
                     FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                     dialogFragment.show(transaction, "");
                 } else {
-                    DialogFragment dialogFragment = new WrongAlertFragment();
+                    DialogFragment dialogFragment = new WrongLastAlertFragment();
                     dialogFragment.setCancelable(false);
                     FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                     dialogFragment.show(transaction, "");
                 }
-
-                FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.frameLayoutJogoEstruturas, new JogoEstrutura2Fragment());
-                transaction.commit();
             }
         });
 
@@ -96,7 +94,7 @@ public class JogoEstrutura9Fragment extends Fragment {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                 builder.setIcon(R.drawable.dica_glow);
                 builder.setTitle("Dica");
-                builder.setMessage("Cromossomo extra\nAfeta apenas o sexo feminino");
+                builder.setMessage("Encontre a deleção no cromossomo");
                 builder.setPositiveButton("OK", null);
                 builder.create().show();
             }

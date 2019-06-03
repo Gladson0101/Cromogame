@@ -53,7 +53,7 @@ public class JogoDoencas5Fragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_jogo_doencas5, container, false);
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoDoencas);
-        textView.setText("Questão: 2/7");
+        textView.setText("Questão: 2/10");
 
         initImgScrollView(view);
         initImgResposta(view);

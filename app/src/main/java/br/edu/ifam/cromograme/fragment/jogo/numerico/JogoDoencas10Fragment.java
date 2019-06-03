@@ -15,7 +15,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import br.edu.ifam.cromograme.R;
+import br.edu.ifam.cromograme.fragment.CorrectAlertFragment;
 import br.edu.ifam.cromograme.fragment.CorrectLastAlertFragment;
+import br.edu.ifam.cromograme.fragment.WrongAlertFragment;
 import br.edu.ifam.cromograme.fragment.WrongLastAlertFragment;
 
 /**
@@ -54,7 +56,7 @@ public class JogoDoencas10Fragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_jogo_doencas10, container, false);
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoDoencas);
-        textView.setText("Questão: 7/7");
+        textView.setText("Questão: 7/10");
 
         initImgScrollView(view);
         initImgResposta(view);
@@ -84,16 +86,20 @@ public class JogoDoencas10Fragment extends Fragment {
             public void onClick(View v) {
 
                 if (acertou && !hasClickers()) {
-                    DialogFragment dialogFragment = new CorrectLastAlertFragment();
+                    DialogFragment dialogFragment = new CorrectAlertFragment();
                     dialogFragment.setCancelable(false);
                     FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                     dialogFragment.show(transaction, "");
                 } else {
-                    DialogFragment dialogFragment = new WrongLastAlertFragment();
+                    DialogFragment dialogFragment = new WrongAlertFragment();
                     dialogFragment.setCancelable(false);
                     FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                     dialogFragment.show(transaction, "");
                 }
+
+                FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                transaction.replace(R.id.frameLayoutJogoDoencas, new JogoDoencas12Fragment());
+                transaction.commit();
             }
         });
 
