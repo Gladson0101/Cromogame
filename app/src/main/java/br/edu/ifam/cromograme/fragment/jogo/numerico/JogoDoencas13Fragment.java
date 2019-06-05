@@ -88,10 +88,22 @@ public class JogoDoencas13Fragment extends Fragment {
             public void onClick(View v) {
 
                 if (acertou && !hasClickers()) {
-                    DialogFragment dialogFragment = new CorrectLastAlertFragment();
-                    dialogFragment.setCancelable(false);
-                    FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-                    dialogFragment.show(transaction, "");
+                    android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(getActivity());
+                    LayoutInflater inflater = LayoutInflater.from(getActivity());
+                    View viewRoot = inflater.inflate(R.layout.fragment_certo, null);
+                    ImageView imgResposta = viewRoot.findViewById(R.id.imgCerto);
+                    imgResposta.setImageResource(R.drawable.trissomia_9);
+                    builder.setView(viewRoot);
+                    builder.setTitle("");
+                    builder.setIcon(R.drawable.resposta_certa);
+                    builder.setCancelable(false);
+                    builder.setPositiveButton("Próximo", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            getActivity().finish();
+                        }
+                    });
+                    builder.create().show();
                 } else {
                     DialogFragment dialogFragment = new WrongLastAlertFragment();
                     dialogFragment.setCancelable(false);
