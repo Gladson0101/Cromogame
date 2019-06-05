@@ -77,7 +77,9 @@ public class JogoCromossomo5Fragment extends Fragment {
                     dialogFragment.show(transaction, "");
                 }
 
-                startActivity(new Intent(getActivity(), JogoDoencas1Fragment.class));
+                FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                transaction.replace(R.id.frameLayoutJogoCromossomo, new JogoDoencas1Fragment());
+                transaction.commit();
             }
         });
         return view;

@@ -47,7 +47,7 @@ public class JogoEstrutura9Fragment extends Fragment {
         initImgResposta(view);
 
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoEstruturas);
-        textView.setText("Questão: 9/9");
+        textView.setText("Questão: 10/10");
 
         Button buttonDesistir = getActivity().findViewById(R.id.buttonJogoEstruturasDesistir);
         buttonDesistir.setOnClickListener(new View.OnClickListener() {
@@ -74,10 +74,22 @@ public class JogoEstrutura9Fragment extends Fragment {
             public void onClick(View v) {
 
                 if (resposta()) {
-                    DialogFragment dialogFragment = new CorrectLastAlertFragment();
-                    dialogFragment.setCancelable(false);
-                    FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-                    dialogFragment.show(transaction, "");
+                    android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(getActivity());
+                    LayoutInflater inflater = LayoutInflater.from(getActivity());
+                    View viewRoot = inflater.inflate(R.layout.fragment_certo, null);
+                    ImageView imgResposta = viewRoot.findViewById(R.id.imgCerto);
+                    imgResposta.setImageResource(R.drawable.wolf_04);
+                    builder.setView(viewRoot);
+                    builder.setTitle("");
+                    builder.setIcon(R.drawable.resposta_certa);
+                    builder.setCancelable(false);
+                    builder.setPositiveButton("Próximo", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            getActivity().finish();
+                        }
+                    });
+                    builder.create().show();
                 } else {
                     DialogFragment dialogFragment = new WrongLastAlertFragment();
                     dialogFragment.setCancelable(false);

@@ -12,13 +12,14 @@
         android:background="#a5d6a7">
 
         <LinearLayout
-            android:id="@+id/linearLayout5"
+            android:id="@+id/estudoNumericas"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
             android:layout_marginRight="32dp"
             android:background="@drawable/fundo_card_verde"
+            android:onClick="estudarDoencas"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -43,18 +44,19 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayout6"
+            android:id="@+id/estudoEstruturas"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
             android:layout_marginRight="32dp"
             android:background="@drawable/fundo_card_verde"
+            android:onClick="estudarEstruturas"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+            app:layout_constraintTop_toBottomOf="@+id/estudoNumericas">
 
             <ImageView
                 android:id="@+id/imageView50"
@@ -74,18 +76,19 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayout7"
+            android:id="@+id/estudoCromossomos"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
             android:layout_marginRight="32dp"
             android:background="@drawable/fundo_card_verde"
+            android:onClick="estudarCromossomos"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+            app:layout_constraintTop_toBottomOf="@+id/estudoEstruturas">
 
             <ImageView
                 android:id="@+id/imageView35"
@@ -106,18 +109,19 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayout"
+            android:id="@+id/estudoDivisao"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
             android:layout_marginRight="32dp"
             android:background="@drawable/fundo_card_verde"
+            android:onClick="estudarDivisaoCelular"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+            app:layout_constraintTop_toBottomOf="@+id/estudoCromossomos">
 
             <ImageView
                 android:id="@+id/imageView34"
@@ -142,10 +146,8 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="64dp"
             android:layout_marginLeft="64dp"
             android:layout_marginTop="32dp"
-            android:layout_marginEnd="64dp"
             android:layout_marginRight="64dp"
             android:layout_marginBottom="32dp"
             android:background="@drawable/button_gray_rounded"
@@ -153,9 +155,10 @@
             android:onClick="voltar"
             android:text="Voltar"
             android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/estudoDivisao" />
     </android.support.constraint.ConstraintLayout>
 
 </ScrollView>

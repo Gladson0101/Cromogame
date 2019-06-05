@@ -43,21 +43,25 @@ public class JogoCromossomo3Fragment extends Fragment {
         // Config dos text views.
         textViewAcrocentrico = view.findViewById(R.id.textViewAcrocentrico);
         textViewAcrocentrico.setOnLongClickListener(longClickListener);
+        textViewAcrocentrico.setOnClickListener(clickListener);
         textViewAcrocentricoResposta = view.findViewById(R.id.textViewAcrocentricoResposta);
         textViewAcrocentricoResposta.setOnDragListener(dragListener);
 
         textViewTelocentrico = view.findViewById(R.id.textViewTelocentrico);
         textViewTelocentrico.setOnLongClickListener(longClickListener);
+        textViewTelocentrico.setOnClickListener(clickListener);
         textViewTelocentricoResposta = view.findViewById(R.id.textViewTelocentricoResposta);
         textViewTelocentricoResposta.setOnDragListener(dragListener);
 
         textViewMetacentrico = view.findViewById(R.id.textViewMetacentrico);
         textViewMetacentrico.setOnLongClickListener(longClickListener);
+        textViewMetacentrico.setOnClickListener(clickListener);
         textViewMetacentricoResposta = view.findViewById(R.id.textViewMetacentricoResposta);
         textViewMetacentricoResposta.setOnDragListener(dragListener);
 
         textViewSubmetacentrico = view.findViewById(R.id.textViewSubmetacentrico);
         textViewSubmetacentrico.setOnLongClickListener(longClickListener);
+        textViewSubmetacentrico.setOnClickListener(clickListener);
         textViewSubmetacentricoResposta = view.findViewById(R.id.textViewSubmetacrentricoResposta);
         textViewSubmetacentricoResposta.setOnDragListener(dragListener);
 
@@ -108,6 +112,15 @@ public class JogoCromossomo3Fragment extends Fragment {
 
         return view;
     }
+
+    View.OnClickListener clickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            ClipData data = ClipData.newPlainText("", "");
+            View.DragShadowBuilder myShadowBuilder = new View.DragShadowBuilder(v);
+            v.startDrag(data, myShadowBuilder, v, 0);
+        }
+    };
 
     View.OnLongClickListener longClickListener = new View.OnLongClickListener() {
         @Override

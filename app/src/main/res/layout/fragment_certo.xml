@@ -10,7 +10,7 @@
     tools:context=".fragment.CertoFragment" >
 
     <ImageView
-        android:id="@+id/imageView38"
+        android:id="@+id/imgCerto"
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:paddingLeft="10dp"

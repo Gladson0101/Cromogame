@@ -8,6 +8,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import br.edu.ifam.cromograme.R;
+import br.edu.ifam.cromograme.fragment.jogo.estrutura.JogoEstrutura0Fragment;
 import br.edu.ifam.cromograme.fragment.jogo.estrutura.JogoEstrutura1Fragment;
 
 public class JogoEstruturasActivity extends AppCompatActivity {
@@ -24,7 +25,7 @@ public class JogoEstruturasActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.add(R.id.frameLayoutJogoEstruturas, new JogoEstrutura1Fragment());
+        transaction.add(R.id.frameLayoutJogoEstruturas, new JogoEstrutura0Fragment());
         transaction.commit();
     }
 }

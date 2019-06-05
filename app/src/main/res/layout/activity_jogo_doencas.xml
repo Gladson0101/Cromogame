@@ -63,7 +63,7 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonJogoDoencasDesistir"
         app:layout_constraintStart_toEndOf="@+id/textViewQuestaoDoencas"
         app:layout_constraintTop_toBottomOf="@+id/frameLayoutJogoDoencas"
-        app:srcCompat="@drawable/dica" />
+        app:srcCompat="@drawable/dica_glow" />
 
     <Button
         android:id="@+id/buttonJogoDoencasDesistir"

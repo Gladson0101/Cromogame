@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.EstudoEstruturasActivity"></activity>
+        <activity android:name=".activity.EstudoEstruturasActivity" />
         <activity android:name=".activity.JogoEstruturasActivity" />
         <activity android:name=".activity.JogoDoencasActivity" />
         <activity android:name=".activity.JogoCromossomoActivity" />

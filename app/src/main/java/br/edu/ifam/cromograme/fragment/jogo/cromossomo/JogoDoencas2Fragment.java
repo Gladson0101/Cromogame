@@ -35,7 +35,7 @@ public class JogoDoencas2Fragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_jogo_doencas2, container, false);
-        TextView textView = getActivity().findViewById(R.id.textViewQuestaoDoencas);
+        TextView textView = getActivity().findViewById(R.id.textViewQuestaoCromossomo);
         textView.setText("Questão: 7/8");
 
         radioButton = view.findViewById(R.id.rbDoencasCerto2);

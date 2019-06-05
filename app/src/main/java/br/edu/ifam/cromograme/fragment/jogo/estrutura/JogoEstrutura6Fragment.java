@@ -45,7 +45,7 @@ public class JogoEstrutura6Fragment extends Fragment {
         initImgResposta(view);
 
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoEstruturas);
-        textView.setText("Questão: 6/9");
+        textView.setText("Questão: 7/10");
 
         Button buttonDesistir = getActivity().findViewById(R.id.buttonJogoEstruturasDesistir);
         buttonDesistir.setOnClickListener(new View.OnClickListener() {
@@ -72,20 +72,31 @@ public class JogoEstrutura6Fragment extends Fragment {
             public void onClick(View v) {
 
                 if (resposta()) {
-                    DialogFragment dialogFragment = new CorrectAlertFragment();
-                    dialogFragment.setCancelable(false);
-                    FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-                    dialogFragment.show(transaction, "");
+                    android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(getActivity());
+                    LayoutInflater inflater = LayoutInflater.from(getActivity());
+                    View viewRoot = inflater.inflate(R.layout.fragment_certo, null);
+                    ImageView imgResposta = viewRoot.findViewById(R.id.imgCerto);
+                    imgResposta.setImageResource(R.drawable.phi_resp);
+                    builder.setView(viewRoot);
+                    builder.setTitle("");
+                    builder.setIcon(R.drawable.resposta_certa);
+                    builder.setCancelable(false);
+                    builder.setPositiveButton("Próximo", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                            transaction.replace(R.id.frameLayoutJogoEstruturas, new JogoEstrutura7Fragment());
+                            transaction.commit();
+                        }
+                    });
+                    builder.create().show();
                 } else {
                     DialogFragment dialogFragment = new WrongAlertFragment();
                     dialogFragment.setCancelable(false);
                     FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+                    transaction.replace(R.id.frameLayoutJogoEstruturas, new JogoEstrutura7Fragment());
                     dialogFragment.show(transaction, "");
                 }
-
-                FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.frameLayoutJogoEstruturas, new JogoEstrutura7Fragment());
-                transaction.commit();
             }
         });
 
