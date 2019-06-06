@@ -90,8 +90,10 @@ public class JogoDoencas13Fragment extends Fragment {
                 if (acertou && !hasClickers()) {
                     android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(getActivity());
                     LayoutInflater inflater = LayoutInflater.from(getActivity());
-                    View viewRoot = inflater.inflate(R.layout.fragment_certo, null);
-                    ImageView imgResposta = viewRoot.findViewById(R.id.imgCerto);
+                    View viewRoot = inflater.inflate(R.layout.fragment_certo_doenca, null);
+                    TextView tv = viewRoot.findViewById(R.id.textViewNomeDoenca);
+                    tv.setText("Trissomia do 9");
+                    ImageView imgResposta = viewRoot.findViewById(R.id.imageViewAcertou);
                     imgResposta.setImageResource(R.drawable.trissomia_9);
                     builder.setView(viewRoot);
                     builder.setTitle("");

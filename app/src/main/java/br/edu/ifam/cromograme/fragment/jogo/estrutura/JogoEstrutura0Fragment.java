@@ -12,11 +12,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import br.edu.ifam.cromograme.R;
-import br.edu.ifam.cromograme.fragment.CorrectAlertFragment;
-import br.edu.ifam.cromograme.fragment.WrongAlertFragment;
+import br.edu.ifam.cromograme.fragment.WrongLastAlertFragment;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -53,13 +51,10 @@ public class JogoEstrutura0Fragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_jogo_estrutura0, container, false);
 
-        TextView textView = getActivity().findViewById(R.id.textViewQuestaoEstruturas);
-        textView.setText("Questão: 1/10");
-
         initImgScrollView(view);
         initImgResposta(view);
 
-        Button buttonDesistir = getActivity().findViewById(R.id.buttonJogoEstruturasDesistir);
+        Button buttonDesistir = getActivity().findViewById(R.id.buttonHumanoDesistir);
         buttonDesistir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +73,7 @@ public class JogoEstrutura0Fragment extends Fragment {
             }
         });
 
-        Button button = getActivity().findViewById(R.id.buttonJogoEstruturasProximo);
+        Button button = getActivity().findViewById(R.id.buttonHumanoConfirmar);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,41 +85,22 @@ public class JogoEstrutura0Fragment extends Fragment {
                     ImageView imgResposta = viewRoot.findViewById(R.id.imgCerto);
                     imgResposta.setImageResource(R.drawable.cariotipo_normal);
                     builder.setView(viewRoot);
-                    builder.setTitle("");
-                    builder.setIcon(R.drawable.resposta_certa);
                     builder.setCancelable(false);
                     builder.setPositiveButton("Próximo", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-                            transaction.replace(R.id.frameLayoutJogoEstruturas, new JogoEstrutura1Fragment());
-                            transaction.commit();
+                            getActivity().finish();
                         }
                     });
                     builder.create().show();
                 } else {
-                    DialogFragment dialogFragment = new WrongAlertFragment();
+                    DialogFragment dialogFragment = new WrongLastAlertFragment();
                     dialogFragment.setCancelable(false);
                     FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-                    transaction.replace(R.id.frameLayoutJogoEstruturas, new JogoEstrutura1Fragment());
                     dialogFragment.show(transaction, "");
                 }
 
 
-            }
-        });
-
-        ImageView img = getActivity().findViewById(R.id.imageViewDicaEstruturas);
-        img.setVisibility(View.VISIBLE);
-        img.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                builder.setIcon(R.drawable.dica_glow);
-                builder.setTitle("Dica");
-                builder.setMessage("Monte o cariótipo humano");
-                builder.setPositiveButton("OK", null);
-                builder.create().show();
             }
         });
 

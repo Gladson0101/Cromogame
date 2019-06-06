@@ -47,7 +47,7 @@ public class JogoEstrutura9Fragment extends Fragment {
         initImgResposta(view);
 
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoEstruturas);
-        textView.setText("Questão: 10/10");
+        textView.setText("Questão: 9/9");
 
         Button buttonDesistir = getActivity().findViewById(R.id.buttonJogoEstruturasDesistir);
         buttonDesistir.setOnClickListener(new View.OnClickListener() {
@@ -76,8 +76,10 @@ public class JogoEstrutura9Fragment extends Fragment {
                 if (resposta()) {
                     android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(getActivity());
                     LayoutInflater inflater = LayoutInflater.from(getActivity());
-                    View viewRoot = inflater.inflate(R.layout.fragment_certo, null);
-                    ImageView imgResposta = viewRoot.findViewById(R.id.imgCerto);
+                    View viewRoot = inflater.inflate(R.layout.fragment_certo_doenca, null);
+                    TextView tv = viewRoot.findViewById(R.id.textViewNomeDoenca);
+                    tv.setText("Wolf Hirchhorn");
+                    ImageView imgResposta = viewRoot.findViewById(R.id.imageViewAcertou);
                     imgResposta.setImageResource(R.drawable.wolf_04);
                     builder.setView(viewRoot);
                     builder.setTitle("");

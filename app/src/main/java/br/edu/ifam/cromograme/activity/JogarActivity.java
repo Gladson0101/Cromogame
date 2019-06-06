@@ -23,6 +23,10 @@ public class JogarActivity extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
+    public void jogoHumano(View view) {
+        startActivity(new Intent(getApplicationContext(), CariotipoHumanoActivity.class));
+    }
+
     public void jogoCromossomos(View view) {
         startActivity(new Intent(getApplicationContext(), JogoCromossomoActivity.class));
     }

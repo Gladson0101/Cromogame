@@ -40,12 +40,12 @@ public class JogoEstrutura2Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_jogo_estrutura2, container, false);
+        final View view = inflater.inflate(R.layout.fragment_jogo_estrutura2, container, false);
 
         initImgResposta(view);
 
         TextView textView = getActivity().findViewById(R.id.textViewQuestaoEstruturas);
-        textView.setText("Questão: 3/10");
+        textView.setText("Questão: 2/9");
 
         Button buttonDesistir = getActivity().findViewById(R.id.buttonJogoEstruturasDesistir);
         buttonDesistir.setOnClickListener(new View.OnClickListener() {
@@ -74,8 +74,10 @@ public class JogoEstrutura2Fragment extends Fragment {
                 if (resposta()) {
                     android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(getActivity());
                     LayoutInflater inflater = LayoutInflater.from(getActivity());
-                    View viewRoot = inflater.inflate(R.layout.fragment_certo, null);
-                    ImageView imgResposta = viewRoot.findViewById(R.id.imgCerto);
+                    View viewRoot = inflater.inflate(R.layout.fragment_certo_doenca, null);
+                    TextView tv = viewRoot.findViewById(R.id.textViewNomeDoenca);
+                    tv.setText("Burkitt");
+                    ImageView imgResposta = viewRoot.findViewById(R.id.imageViewAcertou);
                     imgResposta.setImageResource(R.drawable.bur_resp);
                     builder.setView(viewRoot);
                     builder.setTitle("");

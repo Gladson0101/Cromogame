@@ -9,9 +9,8 @@ import android.view.WindowManager;
 
 import br.edu.ifam.cromograme.R;
 import br.edu.ifam.cromograme.fragment.jogo.estrutura.JogoEstrutura0Fragment;
-import br.edu.ifam.cromograme.fragment.jogo.estrutura.JogoEstrutura1Fragment;
 
-public class JogoEstruturasActivity extends AppCompatActivity {
+public class CariotipoHumanoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,12 +19,12 @@ public class JogoEstruturasActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-        setContentView(R.layout.activity_jogo_estruturas);
+        setContentView(R.layout.activity_cariotipo_humano);
 
         getSupportActionBar().hide();
 
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.add(R.id.frameLayoutJogoEstruturas, new JogoEstrutura1Fragment());
+        transaction.add(R.id.frameHumano, new JogoEstrutura0Fragment());
         transaction.commit();
     }
 }

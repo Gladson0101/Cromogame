@@ -30,88 +30,11 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/car_01"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_01" />
-
-                <ImageView
                     android:id="@+id/car_02"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:padding="5dp"
                     android:src="@drawable/car_02" />
-
-                <ImageView
-                    android:id="@+id/car_03"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_03" />
-
-                <ImageView
-                    android:id="@+id/car_04"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_04" />
-
-                <ImageView
-                    android:id="@+id/car_05"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_05" />
-
-                <ImageView
-                    android:id="@+id/car_06"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_06" />
-
-                <ImageView
-                    android:id="@+id/car_07"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_07" />
-
-                <ImageView
-                    android:id="@+id/car_08"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_08" />
-
-                <ImageView
-                    android:id="@+id/car_09"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_09" />
-
-                <ImageView
-                    android:id="@+id/car_10"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_10" />
-
-                <ImageView
-                    android:id="@+id/car_11"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_11" />
-
-                <ImageView
-                    android:id="@+id/car_12"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_12" />
 
                 <ImageView
                     android:id="@+id/car_13"
@@ -121,46 +44,39 @@
                     android:src="@drawable/car_13" />
 
                 <ImageView
-                    android:id="@+id/car_14"
+                    android:id="@+id/car_11"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:padding="5dp"
-                    android:src="@drawable/car_14" />
+                    android:src="@drawable/car_11" />
 
                 <ImageView
-                    android:id="@+id/car_15"
+                    android:id="@+id/car_10"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:padding="5dp"
-                    android:src="@drawable/car_15" />
+                    android:src="@drawable/car_10" />
 
                 <ImageView
-                    android:id="@+id/car_16"
+                    android:id="@+id/car_04"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:padding="5dp"
-                    android:src="@drawable/car_16" />
+                    android:src="@drawable/car_04" />
 
                 <ImageView
-                    android:id="@+id/car_17"
+                    android:id="@+id/car_09"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:padding="5dp"
-                    android:src="@drawable/car_17" />
+                    android:src="@drawable/car_09" />
 
                 <ImageView
-                    android:id="@+id/car_18"
+                    android:id="@+id/car_07"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:padding="5dp"
-                    android:src="@drawable/car_18" />
-
-                <ImageView
-                    android:id="@+id/car_19"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:padding="5dp"
-                    android:src="@drawable/car_19" />
+                    android:src="@drawable/car_07" />
 
                 <ImageView
                     android:id="@+id/car_20"
@@ -170,11 +86,18 @@
                     android:src="@drawable/car_20" />
 
                 <ImageView
-                    android:id="@+id/car_21"
+                    android:id="@+id/car_05"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:padding="5dp"
-                    android:src="@drawable/car_21" />
+                    android:src="@drawable/car_05" />
+
+                <ImageView
+                    android:id="@+id/car_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_16" />
 
                 <ImageView
                     android:id="@+id/car_22"
@@ -184,6 +107,13 @@
                     android:src="@drawable/car_22" />
 
                 <ImageView
+                    android:id="@+id/car_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_08" />
+
+                <ImageView
                     android:id="@+id/car_23"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
@@ -191,11 +121,82 @@
                     android:src="@drawable/car_23" />
 
                 <ImageView
+                    android:id="@+id/car_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_14" />
+
+                <ImageView
+                    android:id="@+id/car_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_03" />
+
+                <ImageView
+                    android:id="@+id/car_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_01" />
+
+                <ImageView
+                    android:id="@+id/car_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_19" />
+
+                <ImageView
+                    android:id="@+id/car_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_06" />
+
+                <ImageView
+                    android:id="@+id/car_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_15" />
+
+                <ImageView
+                    android:id="@+id/car_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_12" />
+
+                <ImageView
+                    android:id="@+id/car_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_17" />
+
+                <ImageView
                     android:id="@+id/car_24"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:padding="5dp"
                     android:src="@drawable/car_24" />
+
+                <ImageView
+                    android:id="@+id/car_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_18" />
+
+                <ImageView
+                    android:id="@+id/car_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="5dp"
+                    android:src="@drawable/car_21" />
+
             </LinearLayout>
         </ScrollView>
 

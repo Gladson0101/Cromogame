@@ -86,8 +86,10 @@ public class JogoDoencas9Fragment extends Fragment {
                 if (acertou && !hasClickers()) {
                     android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(getActivity());
                     LayoutInflater inflater = LayoutInflater.from(getActivity());
-                    View viewRoot = inflater.inflate(R.layout.fragment_certo, null);
-                    ImageView imgResposta = viewRoot.findViewById(R.id.imgCerto);
+                    View viewRoot = inflater.inflate(R.layout.fragment_certo_doenca, null);
+                    TextView tv = viewRoot.findViewById(R.id.textViewNomeDoenca);
+                    tv.setText("Triplo X");
+                    ImageView imgResposta = viewRoot.findViewById(R.id.imageViewAcertou);
                     imgResposta.setImageResource(R.drawable.triplo_x);
                     builder.setView(viewRoot);
                     builder.setTitle("");
