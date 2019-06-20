@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,6 +44,9 @@ public class JogoEstrutura0Fragment extends Fragment {
     // Variável de controle
     private int selected = 0;
     private View viewSelected = null;
+
+    private View viewTrocaOrigem = null;
+    private View viewTrocaDestino = null;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -331,6 +335,38 @@ public class JogoEstrutura0Fragment extends Fragment {
         }
     };
 
+    View.OnClickListener clickListenerTroca = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+
+            if (viewTrocaOrigem == null) {
+                viewTrocaOrigem = v;
+                viewTrocaOrigem.setBackgroundResource(R.color.colorPrimary);
+            } else if (viewTrocaOrigem == v) {
+                viewTrocaOrigem.setBackgroundResource(0);
+                viewTrocaOrigem = null;
+            } else {
+
+                viewTrocaDestino = v;
+
+                ImageView imgOrigem = (ImageView) viewTrocaOrigem;
+                ImageView imgDestino = (ImageView) viewTrocaDestino;
+
+                ImageView imgAux = new ImageView(getActivity());
+                imgAux.setImageDrawable(imgOrigem.getDrawable());
+
+                imgOrigem.setImageDrawable(imgDestino.getDrawable());
+                imgDestino.setImageDrawable(imgAux.getDrawable());
+
+                viewTrocaOrigem.setBackgroundResource(0);
+                viewTrocaDestino.setBackgroundResource(0);
+                viewTrocaOrigem = null;
+                viewTrocaDestino = null;
+            }
+
+        }
+    };
+
     View.OnClickListener clickListenerResposta = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -341,122 +377,122 @@ public class JogoEstrutura0Fragment extends Fragment {
                 case R.id.car_01:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_01);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_02:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_02);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_03:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_03);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_04:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_04);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_05:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_05);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_06:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_06);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_07:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_07);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_08:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_08);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_09:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_09);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_10:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_10);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_11:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_11);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_12:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_12);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_13:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_13);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_14:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_14);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_15:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_15);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_16:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_16);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_17:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_17);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_18:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_18);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_19:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_19);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_20:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_20);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_21:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_21);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_22:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_22);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_23:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_23);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.car_24:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.car_24);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
             }
             selected = 0;

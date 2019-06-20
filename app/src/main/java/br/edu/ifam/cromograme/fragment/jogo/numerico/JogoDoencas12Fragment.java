@@ -47,6 +47,9 @@ public class JogoDoencas12Fragment extends Fragment {
     private int selected = 0;
     private View viewSelected = null;
 
+    private View viewTrocaOrigem = null;
+    private View viewTrocaDestino = null;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -131,6 +134,38 @@ public class JogoDoencas12Fragment extends Fragment {
 
         return view;
     }
+
+    View.OnClickListener clickListenerTroca = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+
+            if (viewTrocaOrigem == null) {
+                viewTrocaOrigem = v;
+                viewTrocaOrigem.setBackgroundResource(R.color.colorPrimary);
+            } else if (viewTrocaOrigem == v) {
+                viewTrocaOrigem.setBackgroundResource(0);
+                viewTrocaOrigem = null;
+            } else {
+
+                viewTrocaDestino = v;
+
+                ImageView imgOrigem = (ImageView) viewTrocaOrigem;
+                ImageView imgDestino = (ImageView) viewTrocaDestino;
+
+                ImageView imgAux = new ImageView(getActivity());
+                imgAux.setImageDrawable(imgOrigem.getDrawable());
+
+                imgOrigem.setImageDrawable(imgDestino.getDrawable());
+                imgDestino.setImageDrawable(imgAux.getDrawable());
+
+                viewTrocaOrigem.setBackgroundResource(0);
+                viewTrocaDestino.setBackgroundResource(0);
+                viewTrocaOrigem = null;
+                viewTrocaDestino = null;
+            }
+
+        }
+    };
 
     private boolean acertou() {
         if (imgWar_01.getDrawable().equals(R.drawable.wark_01)
@@ -367,122 +402,122 @@ public class JogoDoencas12Fragment extends Fragment {
                 case R.id.wark_01:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_01);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_02:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_02);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_03:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_03);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_04:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_04);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_05:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_05);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_06:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_06);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_07:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_07);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_08:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_08);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_09:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_09);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_10:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_10);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_11:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_11);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_12:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_12);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_13:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_13);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_14:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_14);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_15:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_15);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_16:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_16);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_17:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_17);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_18:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_18);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_19:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_19);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_20:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_20);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_21:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_21);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_22:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_22);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_23:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_23);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
                 case R.id.wark_24:
                     viewSelected.setVisibility(View.GONE);
                     iv.setImageResource(R.drawable.wark_24);
-                    iv.setOnClickListener(null);
+                    iv.setOnClickListener(clickListenerTroca);
                     break;
             }
             selected = 0;
