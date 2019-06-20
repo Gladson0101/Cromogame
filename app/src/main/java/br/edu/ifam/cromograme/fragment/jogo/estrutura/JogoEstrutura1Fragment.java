@@ -103,6 +103,7 @@ public class JogoEstrutura1Fragment extends Fragment {
         });
 
         ImageView img = getActivity().findViewById(R.id.imageViewDicaEstruturas);
+        img.setVisibility(View.VISIBLE);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
